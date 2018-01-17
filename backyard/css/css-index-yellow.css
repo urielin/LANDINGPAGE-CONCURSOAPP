@@ -160,8 +160,11 @@ a:hover {
 	margin: 100px 0 40px 0;
 }
 .logo img{
-	width: 150px; 
-	height: 37px
+/*	width: 150px;  --modificado
+	height: 37px;*/
+	width: 172px;
+	height: 205px;
+	margin-top: -56px;
 }
 .landing h1{
 	font-size: 56px;

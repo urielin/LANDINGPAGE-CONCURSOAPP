@@ -48,6 +48,7 @@ a:hover {
 	-webkit-transition: all .8s ease;
 	transition: all .8s ease;
 }
+
 .highlight {
 	color: #d1b702;
 }
@@ -157,6 +158,7 @@ a:hover {
 }
 .logo {
 	margin: 100px 0 40px 0;
+	margin-bottom: 90px;
 }
 .logo img{	
 	/*	width: 150px;  --modificado
@@ -874,4 +876,14 @@ and (orientation : landscape) {
 		margin: 70px 0 20px;
 	}
 
+}
+.title-mpt{
+	text-align: center;
+	position: absolute;
+	margin-left: 16px;
+	margin-top: -5px;
+	color: white;
+}
+.subtitle{
+	text-align: center;
 }

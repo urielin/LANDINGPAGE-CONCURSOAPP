@@ -85,6 +85,7 @@ a:hover {
 }
 .navbar-default .navbar-brand {
     padding: 7px;
+    padding-top: 3px;/*modificado*/
 }
 .navbar-default .navbar-nav > li > a {
     color: #777;
@@ -153,8 +154,11 @@ a:hover {
 	color: white
 }
 .site-name img{
-	width: 150px; 
-	height: 37px
+/*	width: 150px; 
+	height: 37px*/
+	width: 44px; 
+	height: 44px
+	
 }
 .logo {
 	margin: 100px 0 40px 0;
@@ -238,7 +242,7 @@ a:hover {
 	font-size: 18px;
 }
 .row-feat {
-	padding-top: 50px;
+	/*padding-top: 50px;*/ /*modificado*/
 }
 .feat-list {
 	margin-top: 40px;

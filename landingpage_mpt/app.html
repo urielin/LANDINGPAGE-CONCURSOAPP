@@ -5,6 +5,7 @@
         <!-- /.website title -->
         <title>DesafioAPP Tacna2018</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
         <!-- CSS Files -->
         <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
@@ -64,7 +65,7 @@
                             <!-- /.header button -->
                             <div class="head-btn wow fadeInLeft">
                                 <a href="https://drive.google.com/open?id=1bQNAOXMS20Bk3X37oIYCUbu5SgKuuJ0T"  target="_blank" class="btn-primary">Bases para el concurso</a>
-                                <a href="#"data-toggle='modal' data-target='#modal-registrar' class="btn-default">Subscribete</a>
+                                <a href="#"data-toggle='modal' data-target='#modal-registrar' class="btn-default">Subscríbete</a>
                             </div>
 
                             <!-- /.phone option -->
@@ -102,35 +103,32 @@
                         </div>                      
                       
                     </div>
-                    <form id="frm_registrar" method="post" enctype="multipart/form-data">
-
-                      <div class="modal-body">
-                       <form>
+                    <form class="form-horizontal" method="POST" action="leer.php" enctype="multipart/form-data" autocomplete="off">
+                      <div class="modal-body">                       
                         <div class="form-group">
                           <label for="recipient-name" class="form-control-label">Nombre:</label>
-                          <input type="text" class="form-control" id="recipient-name">
+                          <input type="text" class="form-control" id="recipient-name" name="nombre">
                         </div>
                         <div class="form-group">
-                          <label for="recipient-name" class="form-control-label">Apellido:</label>
-                          <input type="text" class="form-control" id="recipient-name">
+                          <label for="recipient-name2" class="form-control-label">Apellido:</label>
+                          <input type="text" class="form-control" id="recipient-name2" name="apellido">
                         </div>
                         <div class="form-group">
-                          <label for="recipient-name" class="form-control-label">DNI:</label>
-                          <input type="text" class="form-control" id="recipient-name">
+                          <label for="recipient-name3" class="form-control-label">DNI:</label>
+                          <input type="text" class="form-control" id="recipient-name3" name="dni">
                         </div>
                         <div class="form-group">
-                          <label for="recipient-name" class="form-control-label">Ciudad:</label>
-                          <input type="text" class="form-control" id="recipient-name">
+                          <label for="recipient-name4" class="form-control-label">Ciudad:</label>
+                          <input type="text" class="form-control" id="recipient-name4" name="ciudad">
                         </div>
                         <div class="form-group">
-                          <label for="recipient-name" class="form-control-label">Celular:</label>
-                          <input type="text" class="form-control" id="recipient-name">
+                          <label for="recipient-name5" class="form-control-label">Celular:</label>
+                          <input type="text" class="form-control" id="recipient-name5" name="celular">
                         </div>
                         <div class="form-group">
-                          <label for="recipient-name" class="form-control-label">Email:</label>
-                          <input type="text" class="form-control" id="recipient-name">
-                        </div>                       
-                       </form>
+                          <label for="recipient-name6" class="form-control-label">Email:</label>
+                          <input type="text" class="form-control" id="recipient-name6" name="email">
+                        </div>                                              
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Cancelar</button>

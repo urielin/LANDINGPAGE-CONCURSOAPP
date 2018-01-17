@@ -242,7 +242,7 @@ a:hover {
 	font-size: 18px;
 }
 .row-feat {
-	padding-top: 50px;
+	/*padding-top: 50px;*/ /*modificado*/
 }
 .feat-list {
 	margin-top: 40px;

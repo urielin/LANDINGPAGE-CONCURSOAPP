@@ -30,6 +30,8 @@ $conn = sqlsrv_connect( $serverName, $connectionInfo);
 		sqlsrv_execute($inscripcion_concurso);
 
 		header("location:app.html");
+		
+		/*echo "alertify.error('No enviaste tu problema')";*/
 		/*
 		if(sqlsrv_execute($recurso)){
 		echo"Agregado correctamente";

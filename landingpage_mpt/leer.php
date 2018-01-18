@@ -1,50 +1,38 @@
-<?php
-$serverName = "10.10.1.55"; //serverName\instanceName
-$connectionInfo = array( "Database"=>"BDCONCURSOAPP", "UID"=>"sa", "PWD"=>"qwerty.123");
-$conn = sqlsrv_connect( $serverName, $connectionInfo);
-	
-		$nombre = $_POST['nombre'];
-		$apellido = $_POST['apellido'];
-		$dni = $_POST['dni'];
-		$ciudad = $_POST['ciudad'];
-		$celular = $_POST['celular'];
-		$email = $_POST['email'];
-		
-		
-		/*$sql = "INSERT INTO productos (nombre, precio, existencia) VALUE('$nombre','$precio','$existencia')";*/
-		$sql = "
-				insert into 
-					dbo.inscripcion_concurso
-					  (
-						  nombre, apellido, dni, ciudad, celular, email
-						  
-					  )
-				values
-					  (
-						  '$nombre','$apellido','$dni','$ciudad','$celular','$email'			  						  	  				  			 
-						  
-					  )  
-		";
+    <?php
+    $serverName = "10.10.1.55"; //serverName\instanceName
+    $connectionInfo = array( "Database"=>"BDCONCURSOAPP", "UID"=>"sa", "PWD"=>"qwerty.123");
+    $conn = sqlsrv_connect( $serverName, $connectionInfo);
+    	
+    		$nombre = $_POST['nombre'];
+    		$apellido = $_POST['apellido'];
+    		$dni = $_POST['dni'];
+    		$ciudad = $_POST['ciudad'];
+    		$celular = $_POST['celular'];
+    		$email = $_POST['email'];
+    		$titulo = $_POST['titulo'];
+    		$descripcion = $_POST['descripcion'];    		
+    		    		
+    		$sql = "
+    				insert into 
+    					dbo.inscripcion_concurso
+    					  (
+    						  nombre, apellido, dni, ciudad, celular, email, titulo, descripcion
+    						  
+    					  )
+    				values
+    					  (
+    						  '$nombre','$apellido','$dni','$ciudad','$celular','$email','$titulo','$descripcion'			  						  	  				  			 
+    						  
+    					  )  
+    		";
 
-		$inscripcion_concurso=sqlsrv_prepare($conn,$sql);		
-		sqlsrv_execute($inscripcion_concurso);
+    		$inscripcion_concurso=sqlsrv_prepare($conn,$sql);		
+    		sqlsrv_execute($inscripcion_concurso);
+    		
+    		/*alert('registrado correctamente');*/
 
-		header("location:app.html");
-		
-		/*echo "alertify.error('No enviaste tu problema')";*/
-		/*
-		if(sqlsrv_execute($recurso)){
-		echo"Agregado correctamente";
-		}
-		else
-		{
-		echo"No Agregado";
-		}*/
-		//$result = $this->db_b->query($sql);
-		/*$result = $mysqli->query($sql);*/
-		
-	
-	
-	/*alert('registrado correctamente');*/
-	
-?>
+    		echo "<script type='text/javascript'>alert('registrado correctamente');</script>";
+    		header("location:redireccion.html");
+    		
+    ?>
+

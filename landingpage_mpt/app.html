@@ -14,6 +14,9 @@
         <link href="css/animate.css" rel="stylesheet" media="screen">
         <link href="css/owl.theme.css" rel="stylesheet">
         <link href="css/owl.carousel.css" rel="stylesheet">
+        <link href="css/alertify.core.css" rel="stylesheet">
+        <link href="css/alertify.default.css" rel="stylesheet">
+        <link href="css/alertify.bootstrap.css" rel="stylesheet">
 
         <!-- Colors -->
         <!-- <link href="css/css-app.css" rel="stylesheet" media="screen"> -->
@@ -97,7 +100,7 @@
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">×</span></button>
                         <div class="text-center">
-                            <h2 class="wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;">Inscríbete al concurso de aplicaciones móviles</h2>
+                            <h2 class="wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;">INSCRÍBETE AL CONCURSO DE APLICACIONES MÓVILES</h2>
                             <div class="title-line wow fadeInRight animated" style="visibility: visible; animation-name: fadeInRight;"></div>
                             <h6 class="modal-title" style="text-align:center;">Sólo el representante se podrá inscribir en el siguiente formulario</h6>
                         </div>
@@ -107,27 +110,27 @@
                       <div class="modal-body">                       
                         <div class="col-md-12 form-group ">
                           <label for="recipient-name" class="form-control-label">Nombre:</label>
-                          <input type="text" class="form-control" id="recipient-name" name="nombre">
+                          <input required type="text" class="form-control" id="recipient-name" name="nombre">
                         </div>
                         <div class="col-md-12 form-group ">
                           <label for="recipient-name2" class="form-control-label">Apellido:</label>
-                          <input type="text" class="form-control" id="recipient-name2" name="apellido">
+                          <input required type="text" class="form-control" id="recipient-name2" name="apellido">
                         </div>
                         <div class="col-md-12 form-group ">
                           <label for="recipient-name3" class="form-control-label">DNI:</label>
-                          <input type="text" class="form-control" id="recipient-name3" name="dni">
+                          <input required type="text" class="form-control" id="recipient-name3" name="dni">
                         </div>
                         <div class="col-md-12 form-group ">
                           <label for="recipient-name4" class="form-control-label">Ciudad:</label>
-                          <input type="text" class="form-control" id="recipient-name4" name="ciudad">
+                          <input required type="text" class="form-control" id="recipient-name4" name="ciudad">
                         </div>
                         <div class="col-md-12 form-group ">
                           <label for="recipient-name5" class="form-control-label">Celular:</label>
-                          <input type="text" class="form-control" id="recipient-name5" name="celular">
+                          <input required type="text" class="form-control" id="recipient-name5" name="celular">
                         </div>
                         <div class="col-md-12 form-group ">
                           <label for="recipient-name6" class="form-control-label">Email:</label>
-                          <input type="text" class="form-control" id="recipient-name6" name="email">
+                          <input required type="text" class="form-control" id="recipient-name6" name="email">
                         </div>                                              
 
                       </div>
@@ -293,7 +296,7 @@
                                         <div class="col-sm-12 feat-list">
                                             <i class="pe-7s-news-paper pe-5x pe-va wow fadeInUp" data-wow-delay="0.2s" style="color:white;"></i>
                                             <div class="inner">
-                                                <h4>Reconocimeinto a nombre de la Municipalidad Provincial de Tacna</h4>
+                                                <h4>Reconocimiento a nombre de la Municipalidad Provincial de Tacna</h4>
                                                 <p>
                                                 </p>
                                             </div>
@@ -475,7 +478,9 @@
         <script src="js/jquery.sticky.js"></script>
         <script src="js/wow.min.js"></script>
         <script src="js/owl.carousel.min.js"></script>
-        <script src="js/ekko-lightbox-min.js"></script>
+        <script src="js/ekko-lightbox-min.js"></script>        
+        <script src="js/alertify.min.js"></script>
+
         <script type="text/javascript">
             $( document ).delegate( '*[data-toggle="lightbox"]', 'click', function ( event ) {
                 event.preventDefault();

@@ -1,9 +1,11 @@
     <?php
     $serverName = "10.10.1.55"; //serverName\instanceName
-    $connectionInfo = array( "Database"=>"BDCONCURSOAPP", "UID"=>"sa", "PWD"=>"qwerty.123");
+    // $connectionInfo = array( "Database"=>"BDCONCURSOAPP", "UID"=>"sa", "PWD"=>"qwerty.123");
+    // $connectionInfo = array( "Database"=>"BDCONCURSOAPP", "UID"=>"udesafiomovil", "PWD"=>"principal*123");
     // $conn = sqlsvr_connect( $serverName, $connectionInfo);
     // $conn = sqlsvr_connect( $serverName, $connectionInfo);
-    $conn = mssql_connect($serverName, 'sa', 'qwerty.123');
+    // $conn = mssql_connect($serverName, 'sa', 'qwerty.123');
+    $conn = mssql_connect($serverName, 'udesafiomovil', 'principal*123');
     $conndb = mssql_select_db('BDCONCURSOAPP', $conn);
     // var_dump($conndb);
     		$nombre = $_POST['nombre'];

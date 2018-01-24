@@ -418,21 +418,6 @@
                           </div></div><div class="owl-item" style="width: 293px;"><div class="screen wow fadeInUp" data-wow-delay="0.7s" style="visibility: hidden; animation-delay: 0.7s; animation-name: none;">
                               <a href="images/screenshot.jpg" data-toggle="lightbox"><img src="images/caja_tacna.jpg" alt="Screenshot"></a>
                           </div></div></div></div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                      <div class="owl-controls clickable"><div class="owl-pagination"><div class="owl-page active"><span class=""></span></div><div class="owl-page"><span class=""></span></div></div></div></div>
                   </div>
               </div>
           </div>

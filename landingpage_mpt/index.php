@@ -4,7 +4,8 @@
 
         <!-- /.website title -->
         <title>DesafioAPP Tacna2018</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+        <!-- <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /> -->
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
         <!-- <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> -->
         <!-- <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> -->
@@ -31,7 +32,7 @@
 
         <!-- Google Fonts -->
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic" />
-    </head>
+    </head>    
 
     <body data-spy="scroll" data-target="#navbar-scroll">
 
@@ -60,18 +61,18 @@
                             </div>
                             <!-- /.main title -->
                             <h1 class="wow fadeInLeft">
-                                Desafío APP Tacna 2018
+                                DesafÃ­o APP Tacna 2018
                             </h1>
 
                             <!-- /.header paragraph -->
                             <div class="landing-text wow fadeInLeft">
-                                <p>La mejor aplicación de Tacna ganará el concurso</p>
+                                <p>La mejor aplicaciÃ³n de Tacna ganarÃ¡ el concurso</p>
                             </div>
 
                             <!-- /.header button -->
                             <div class="head-btn wow fadeInLeft">
                                 <a href="https://drive.google.com/open?id=12AGMEBWpXfhlkxcx8KsRaDu3mqLx2y2W"  target="_blank" class="btn-primary">Bases para el concurso</a>
-                                <a href="#" data-toggle='modal' data-target='#modal-registrar' class="btn-default">Subscríbete</a>
+                                <a href="#" data-toggle='modal' data-target='#modal-registrar' class="btn-default">SubscrÃ­bete</a>
                             </div>
 
                             <!-- /.phone option -->
@@ -101,11 +102,11 @@
                   <div class="modal-content">
                     <div class="modal-header">
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">×</span></button>
+                        <span aria-hidden="true">Ã—</span></button>
                         <div class="text-center">
-                            <h2 class="wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;">INSCRÍBETE AL CONCURSO DE APLICACIONES MÓVILES</h2>
+                            <h2 class="wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;">INSCRÃBETE AL CONCURSO DE APLICACIONES MÃ“VILES</h2>
                             <div class="title-line wow fadeInRight animated" style="visibility: visible; animation-name: fadeInRight;"></div>
-                            <h6 class="modal-title" style="text-align:center;">Sólo el representante se podrá inscribir en el siguiente formulario</h6>
+                            <h6 class="modal-title" style="text-align:center;">SÃ³lo el representante se podrÃ¡ inscribir en el siguiente formulario</h6>
                         </div>
 
                     </div>
@@ -113,41 +114,41 @@
                       <div class="modal-body">
                         <div class="col-md-12 form-group ">
                           <label for="recipient-name" class="form-control-label">Nombre:</label>
-                          <input required type="text" class="form-control" id="recipient-name" name="nombre">
+                          <input type="text" class="form-control nombre" id="recipient-name" name="nombre">
                         </div>
                         <div class="col-md-12 form-group ">
                           <label for="recipient-name2" class="form-control-label">Apellido:</label>
-                          <input required type="text" class="form-control" id="recipient-name2" name="apellido">
+                          <input type="text" class="form-control apellido" id="recipient-name2" name="apellido">
                         </div>
                         <div class="col-md-12 form-group ">
                           <label for="recipient-name3" class="form-control-label">DNI:</label>
-                          <input required type="text" class="form-control" id="recipient-name3" name="dni">
+                          <input type="number" class="form-control dni" id="recipient-name3" name="dni">
                         </div>
                         <div class="col-md-12 form-group ">
                           <label for="recipient-name4" class="form-control-label">Ciudad:</label>
-                          <input required type="text" class="form-control" id="recipient-name4" name="ciudad">
+                          <input type="text" class="form-control ciudad" id="recipient-name4" name="ciudad">
                         </div>
                         <div class="col-md-12 form-group ">
                           <label for="recipient-name5" class="form-control-label">Celular:</label>
-                          <input required type="text" class="form-control" id="recipient-name5" name="celular">
+                          <input type="number" class="form-control celular" id="recipient-name5" name="celular">
                         </div>
                         <div class="col-md-12 form-group ">
                           <label for="recipient-name6" class="form-control-label">Email:</label>
-                          <input required type="text" class="form-control" id="recipient-name6" name="email">
+                          <input type="text" class="form-control email" id="recipient-name6" name="email">
                         </div>
                         <div class="col-md-12 form-group ">
-                          <label for="recipient-name7" class="form-control-label">Título de la aplicación móvil:</label>
-                          <input required type="text" class="form-control" id="recipient-name7" name="titulo">
+                          <label for="recipient-name7" class="form-control-label">TÃ­tulo de la aplicaciÃ³n mÃ³vil:</label>
+                          <input type="text" class="form-control titulo" id="recipient-name7" name="titulo">
                         </div>
                         <div class="col-md-12 form-group ">
-                          <label for="recipient-name8" class="form-control-label">Breve descripción de la aplicacion móvil:</label>
-                          <textarea required type="text" class="form-control" id="recipient-name8" name="descripcion"></textarea>
+                          <label for="recipient-name8" class="form-control-label">Breve descripciÃ³n de la aplicacion mÃ³vil:</label>
+                          <textarea type="text" class="form-control descripcion" id="recipient-name8" name="descripcion"></textarea>
                         </div>
 
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Cancelar</button>
-                        <button type="submit"  id="btn_registrar" class="btn btn-primary">Registrar</button>
+                        <button type="submit"  id="btn_registrar" name="boton" class="btn btn-primary boton">Registrar</button>
                       </div>
                     </form>
                   </div>
@@ -197,10 +198,10 @@
                     <!-- /.intro content -->
                     <div class="col-md-6 wow slideInRight">
                         <h2>DESAFIO APP 2018.</h2>
-                        <p style="text-align: justify;">DESAFIO APP 2018 es una iniciativa de la Municipalidad Provincial de Tacna, que mediante la Sub Gerencia de Tecnologías de  la Información y Comunicaciones, desea impulsar la creativa e innovación de jóvenes talentos, en la creación de aplicaciones para celulares, que basados en la innovación de productos, proceso y servicio de forma de comercialización satisfagan las necesidades del ciudadano.  Contaremos con objetivos referentes a Salud, Medio Ambiente, Agrario,  Ganadero, Incentivar a las PYMES, ONG, negocios familiares y en el ámbito Educativo,  Deporte y Cultural entre otros.
+                        <p style="text-align: justify;">DESAFIO APP 2018 es una iniciativa de la Municipalidad Provincial de Tacna, que mediante la Sub Gerencia de TecnologÃ­as de  la InformaciÃ³n y Comunicaciones, desea impulsar la creativa e innovaciÃ³n de jÃ³venes talentos, en la creaciÃ³n de aplicaciones para celulares, que basados en la innovaciÃ³n de productos, proceso y servicio de forma de comercializaciÃ³n satisfagan las necesidades del ciudadano.  Contaremos con objetivos referentes a Salud, Medio Ambiente, Agrario,  Ganadero, Incentivar a las PYMES, ONG, negocios familiares y en el Ã¡mbito Educativo,  Deporte y Cultural entre otros.
                         </p>
 
-                        <div class="btn-section"><a href="https://drive.google.com/open?id=12AGMEBWpXfhlkxcx8KsRaDu3mqLx2y2W"  target="_blank" class="btn-default">Leer Más</a></div>
+                        <div class="btn-section"><a href="https://drive.google.com/open?id=12AGMEBWpXfhlkxcx8KsRaDu3mqLx2y2W"  target="_blank" class="btn-default">Leer MÃ¡s</a></div>
 
                     </div>
                 </div>
@@ -235,7 +236,7 @@
                             <i class="pe-7s-users pe-5x pe-va wow fadeInUp"></i>
                             <div class="inner">
                                 <h4>Equipos de Trabajo</h4>
-                                <p>Para participar del concurso, deberán formar equipos mínimo de 03 personas y un máximo de 05 personas.
+                                <p>Para participar del concurso, deberÃ¡n formar equipos mÃ­nimo de 03 personas y un mÃ¡ximo de 05 personas.
                                 </p>
                             </div>
                         </div>
@@ -245,7 +246,7 @@
                             <i class="pe-7s-cash pe-5x pe-va wow fadeInUp" data-wow-delay="0.2s"></i>
                             <div class="inner">
                                 <h4>Costo</h4>
-                                <p> El costo por incripción es : SIN COSTO
+                                <p> El costo por incripciÃ³n es : SIN COSTO
                                 </p>
                             </div>
                         </div>
@@ -254,8 +255,8 @@
                         <div class="col-sm-6 feat-list" style="width: 100%;">
                             <i class="pe-7s-notebook pe-5x pe-va wow fadeInUp" data-wow-delay="0.6s"></i>
                             <div class="inner">
-                                <h4>Que proyectos innovadores podrán ser presentados</h4>
-                                <p style="text-align:justify;">Se aceptarán proyectos en todos los sectores y actividades económica, entre las cuales puede considerar Salud, Medio Ambiente, Incentivar a las PYMES, ONG, negocios familiares y en el ámbito Educativo, Deporte y Cultural, Agropecuario, Ganadero, etc.
+                                <h4>Que proyectos innovadores podrÃ¡n ser presentados</h4>
+                                <p style="text-align:justify;">Se aceptarÃ¡n proyectos en todos los sectores y actividades econÃ³mica, entre las cuales puede considerar Salud, Medio Ambiente, Incentivar a las PYMES, ONG, negocios familiares y en el Ã¡mbito Educativo, Deporte y Cultural, Agropecuario, Ganadero, etc.
                                 </p>
                             </div>
                         </div>
@@ -265,7 +266,7 @@
                             <i class="pe-7s-notebook pe-5x pe-va wow fadeInUp" data-wow-delay="0.6s"></i>
                             <div class="inner">
                                 <h4>Quienes pueden participar</h4>
-                                <p style="text-align:justify;">Para participar del concurso, deberán forma equipos mínimo de 03 personas y un máximo de 05 personas...
+                                <p style="text-align:justify;">Para participar del concurso, deberÃ¡n forma equipos mÃ­nimo de 03 personas y un mÃ¡ximo de 05 personas...
                                 </p>
                             </div>
                         </div> -->
@@ -276,7 +277,7 @@
                         <!-- <div class="col-sm-6 feat-list">
                             <div></div>
                             <div class="inner">
-                                <a href="https://drive.google.com/open?id=12AGMEBWpXfhlkxcx8KsRaDu3mqLx2y2W"  target="_blank" class="btn-default">Leer Más</a>
+                                <a href="https://drive.google.com/open?id=12AGMEBWpXfhlkxcx8KsRaDu3mqLx2y2W"  target="_blank" class="btn-default">Leer MÃ¡s</a>
                             </div>
                         </div> -->
                     </div>
@@ -299,7 +300,7 @@
                                         <div class="col-sm-12 feat-list">
                                             <i class="pe-7s-gift pe-5x pe-va wow fadeInUp" data-wow-delay="0.2s" style="color:white;"></i>
                                             <div class="inner">
-                                                <h4>Se otorgará un premio para incentivar la continuidad de su proyecto</h4>
+                                                <h4>Se otorgarÃ¡ un premio para incentivar la continuidad de su proyecto</h4>
                                                 <p>
                                                 </p>
                                             </div>
@@ -421,9 +422,9 @@
 
                             <!-- /.address and contact -->
                             <div class="col-sm-5 contact-left wow fadeInUp">
-                                <h2><span class="highlight">Contáctanos</span> </h2>
+                                <h2><span class="highlight">ContÃ¡ctanos</span> </h2>
                                 <ul class="ul-address">
-                                    <li><i class="pe-7s-map-marker"></i>Calle Inclán Nº 404</br>
+                                    <li><i class="pe-7s-map-marker"></i>Calle InclÃ¡n NÂº 404</br>
                                         Tacna.
                                     </li>
                                     <li><i class="pe-7s-phone"></i>052 426878</br>
@@ -479,9 +480,9 @@
                         <a href="desafiomovil2018@munitacna.gob.pe">desafiomovil2018@munitacna.gob.pe</a>
                       </p> -->
 
-                      <p>©Copyright DesafioApp 2017 - Desarrollado por
+                      <p>Â©Copyright DesafioApp 2017 - Desarrollado por
                       </p>
-                      <a href="http://munitacna.gob.pe/" target="_blank">© Sub Gerencia de Tecnologías de Información y Comunicaciones -&nbsp; MPT 2018
+                      <a href="http://munitacna.gob.pe/" target="_blank">Â© Sub Gerencia de TecnologÃ­as de InformaciÃ³n y Comunicaciones -&nbsp; MPT 2018
                       </a>
                     </div>
                     <a href="#" class="scrollToTop"><i class="pe-7s-up-arrow pe-va"></i></a>
@@ -520,8 +521,9 @@
         <script src="js/owl.carousel.min.js"></script>
         <script src="js/ekko-lightbox-min.js"></script>
         <script src="js/alertify.min.js"></script>
+        <script src="js/funcion.js"></script>
 
-        <script type="text/javascript">
+        <script type="text/javascript">        
             $( document ).delegate( '*[data-toggle="lightbox"]', 'click', function ( event ) {
                 event.preventDefault();
                 $( this ).ekkoLightbox();
@@ -539,6 +541,9 @@
             })
           });
 
+
+        </script>
+        <script type="text/javascript">
 
         </script>
 

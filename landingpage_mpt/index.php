@@ -113,42 +113,42 @@
                     <form class="form-horizontal" method="POST" action="leer.php" enctype="multipart/form-data" autocomplete="off">
                       <div class="modal-body">
                         <div class="col-md-12 form-group ">
-                          <label for="recipient-name" class="form-control-label">Nombre:</label>
-                          <input type="text" class="form-control nombre" id="recipient-name" name="nombre">
+                          <label for="nombre" class="form-control-label">Nombre:</label>
+                          <input type="text" class="form-control" id="nombre" name="nombre">
                         </div>
                         <div class="col-md-12 form-group ">
-                          <label for="recipient-name2" class="form-control-label">Apellido:</label>
-                          <input type="text" class="form-control apellido" id="recipient-name2" name="apellido">
+                          <label for="apellido" class="form-control-label">Apellido:</label>
+                          <input type="text" class="form-control" id="apellido" name="apellido">
                         </div>
                         <div class="col-md-12 form-group ">
-                          <label for="recipient-name3" class="form-control-label">DNI:</label>
-                          <input type="number" class="form-control dni" id="recipient-name3" name="dni">
+                          <label for="dni" class="form-control-label">DNI:</label>
+                          <input type="number" class="form-control" id="dni" name="dni">
                         </div>
                         <div class="col-md-12 form-group ">
-                          <label for="recipient-name4" class="form-control-label">Ciudad:</label>
-                          <input type="text" class="form-control ciudad" id="recipient-name4" name="ciudad">
+                          <label for="ciudad" class="form-control-label">Ciudad:</label>
+                          <input type="text" class="form-control" id="ciudad" name="ciudad">
                         </div>
                         <div class="col-md-12 form-group ">
-                          <label for="recipient-name5" class="form-control-label">Celular:</label>
-                          <input type="number" class="form-control celular" id="recipient-name5" name="celular">
+                          <label for="celular" class="form-control-label">Celular:</label>
+                          <input type="number" class="form-control" id="celular" name="celular">
                         </div>
                         <div class="col-md-12 form-group ">
-                          <label for="recipient-name6" class="form-control-label">Email:</label>
-                          <input type="text" class="form-control email" id="recipient-name6" name="email">
+                          <label for="email" class="form-control-label">Email:</label>
+                          <input type="text" class="form-control" id="email" name="email">
                         </div>
                         <div class="col-md-12 form-group ">
-                          <label for="recipient-name7" class="form-control-label">Título de la aplicación móvil:</label>
-                          <input type="text" class="form-control titulo" id="recipient-name7" name="titulo">
+                          <label for="titulo" class="form-control-label">Título de la aplicación móvil:</label>
+                          <input type="text" class="form-control" id="titulo" name="titulo">
                         </div>
                         <div class="col-md-12 form-group ">
-                          <label for="recipient-name8" class="form-control-label">Breve descripción de la aplicacion móvil:</label>
-                          <textarea type="text" class="form-control descripcion" id="recipient-name8" name="descripcion"></textarea>
+                          <label for="descripcion" class="form-control-label">Breve descripción de la aplicacion móvil:</label>
+                          <textarea type="text" class="form-control" id="descripcion" name="descripcion"></textarea>
                         </div>
 
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Cancelar</button>
-                        <button type="submit"  id="btn_registrar" name="boton" class="btn btn-primary boton">Registrar</button>
+                        <button type="submit"  id="btn_registrar" name="btn_registrar" class="btn btn-primary">Registrar</button>
                       </div>
                     </form>
                   </div>

@@ -811,6 +811,18 @@ and (orientation : landscape) {
 	.action h2 {
 		font-size: 30px;
 	}
+	.botones-app{
+		display: block;
+		flex-direction: column;
+	}
+	.boton1-app{
+		margin-bottom: 53px;
+	}
+	.winner-app{
+		width: 323px;
+    	margin: auto;
+    	margin-bottom: -30px;
+	}
 }
 
 /* smart phone width: 360px ----------- */
@@ -891,4 +903,11 @@ and (orientation : landscape) {
 .img-app{
 	/*height: 273px;
 	margin-top: 81px;*/
+}
+.botones-app{
+	display: flex;
+	margin: auto;		
+}
+.premios-app{
+    margin-left: 66px;
 }

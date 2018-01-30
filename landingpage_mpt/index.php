@@ -70,9 +70,17 @@
                             </div>
 
                             <!-- /.header button -->
-                            <div class="head-btn wow fadeInLeft">
-                                <a href="https://drive.google.com/open?id=12AGMEBWpXfhlkxcx8KsRaDu3mqLx2y2W"  target="_blank" class="btn-primary">Bases para el concurso</a>
-                                <a href="#" data-toggle='modal' data-target='#modal-registrar' class="btn-default">Subscríbete</a>
+                            <div class="head-btn wow fadeInLeft botones-app">
+                                <div class="botones-app">
+                                    <div class="boton1-app">
+                                        <a href="https://drive.google.com/open?id=12AGMEBWpXfhlkxcx8KsRaDu3mqLx2y2W"  target="_blank" class="btn-primary">Bases para el concurso</a>                                
+                                    </div>
+                                    <div>
+                                        <a href="#" data-toggle='modal' data-target='#modal-registrar' class="btn-default">Subscríbete</a>    
+                                    </div>                                    
+                                </div>
+
+                                
                             </div>
 
                             <!-- /.phone option -->
@@ -296,11 +304,11 @@
 
                                 <div class="row">
                                     <div class="col-md-7">
-                                      <div class="row">
-                                        <div class="col-sm-12 feat-list">
+                                      <div class="row " style="text-align:left;" >
+                                        <div class="col-sm-12 feat-list " >
                                             <i class="pe-7s-gift pe-5x pe-va wow fadeInUp" data-wow-delay="0.2s" style="color:white;"></i>
                                             <div class="inner">
-                                                <h4>Se otorgará un premio para incentivar la continuidad de su proyecto</h4>
+                                                <h4 class="premios-app">Se otorgará un premio para incentivar la continuidad de su proyecto</h4>
                                                 <p>
                                                 </p>
                                             </div>
@@ -308,7 +316,7 @@
                                         <div class="col-sm-12 feat-list">
                                             <i class="pe-7s-news-paper pe-5x pe-va wow fadeInUp" data-wow-delay="0.2s" style="color:white;"></i>
                                             <div class="inner">
-                                                <h4>Reconocimiento a nombre de la Municipalidad Provincial de Tacna</h4>
+                                                <h4 class="premios-app">Reconocimiento a nombre de la Municipalidad Provincial de Tacna</h4>
                                                 <p>
                                                 </p>
                                             </div>
@@ -317,8 +325,8 @@
                                     </div>
 
                                     <!-- /.phone image -->
-                                    <div class="col-md-5" style="margin-bottom: 115px;">
-                                        <img src="images/winner.png" alt="phone">
+                                    <div class="col-md-5" style="margin-bottom: 115px; margin-top:20px;">
+                                        <img class="winner-app" src="images/winner.png" alt="phone">
                                     </div>
                                 </div>
                                 <!-- /.download buttons -->
@@ -401,7 +409,7 @@
                         <!-- /.screenshot images -->                      
 
                         <div class="screen wow fadeInUp" data-wow-delay="0.1s">
-                            <a href="images/screenshot.jpg" data-toggle="lightbox" style='display: flex;'><img src="images/caja_tacna.jpg" alt="Screenshot" style='width: 35%;margin: auto;'></a>
+                            <a href="images/screenshot.jpg" data-toggle="lightbox" style='display: flex;'><img src="images/caja_tacna.jpg" alt="Screenshot" style='width: 400px;margin: auto;'></a>
                         </div>                        
 
                 </div>

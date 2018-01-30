@@ -1035,3 +1035,7 @@ and (orientation : landscape) {
 		padding: 20px 10px;
 	}
 }
+.botones-app{
+	display: flex;
+	margin: auto;		
+}

@@ -1,10 +1,20 @@
     <?php
     $serverName = "10.10.1.55"; //serverName\instanceName
-    // $connectionInfo = array( "Database"=>"BDCONCURSOAPP", "UID"=>"sa", "PWD"=>"qwerty.123");
+    $connectionInfo = array( "Database"=>"BDCONCURSOAPP", "UID"=>"sa", "PWD"=>"qwerty.123");
     // $connectionInfo = array( "Database"=>"BDCONCURSOAPP", "UID"=>"udesafiomovil", "PWD"=>"principal*123");
     // $conn = sqlsvr_connect( $serverName, $connectionInfo);
     // $conn = sqlsvr_connect( $serverName, $connectionInfo);
     // $conn = mssql_connect($serverName, 'sa', 'qwerty.123');
+    // $connectionInfo = array( "Database"=>"Middle", "UID"=>"sasa", "PWD"=>"******");
+    // $conn = sqlsrv_connect( $serverName, $connectionInfo);
+    //
+    // if( $conn ) {
+    //      echo "Connection established.<br />";
+    // }else{
+    //      echo "Connection could not be established.<br />";
+    //      die( print_r( sqlsrv_errors(), true));
+    // }
+
     $conn = mssql_connect($serverName, 'udesafiomovil', 'principal*123');
     $conndb = mssql_select_db('BDCONCURSOAPP', $conn);
     // var_dump($conndb);

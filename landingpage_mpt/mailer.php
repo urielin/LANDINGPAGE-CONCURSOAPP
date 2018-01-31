@@ -32,6 +32,7 @@ function smtpmailer($to, $from, $from_name, $subject, $body, $is_gmail = true) {
 	}
 	$mail->SetFrom($from, $from_name);
 	$mail->Subject = $subject;
+	$body=message_confirmation.html;
 	$mail->Body = $body;
 	$mail->AddAddress($to);
 	if(!$mail->Send()) {

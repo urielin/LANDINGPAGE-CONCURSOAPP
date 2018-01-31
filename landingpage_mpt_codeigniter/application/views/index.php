@@ -40,7 +40,7 @@
           <div id="top"></div>
 
           <!-- /.parallax full screen background image -->
-          <div class="fullscreen landing parallax" style="background-image: url(&quot;images/celular.png&quot;); background-attachment: fixed; background-size: 1348px 893.05px; background-position: 50% -265.735px;" data-img-width="2000" data-img-height="1325" data-diff="100">
+          <div class="fullscreen landing parallax" style="background-image: url(&quot;assets/images/celular.png&quot;); background-attachment: fixed; background-size: 1348px 893.05px; background-position: 50% -265.735px;" data-img-width="2000" data-img-height="1325" data-diff="100">
 
               <div class="overlay">
                   <div class="container" style="text-align:center;">
@@ -51,7 +51,7 @@
                               <div class="logo wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">
                                   <a>
                                       <div>
-                                          <img src="images/mpt.png" alt="logo">
+                                          <img src="assets/images/mpt.png" alt="logo">
                                           <div class="title-mpt" style="">Municipalidad<br>
                                               <span class="subtitle">Provincial de Tacna</span>
                                           </div>
@@ -86,7 +86,7 @@
 
                           <!-- /.phone image -->
                           <div class="col-md-5">
-                              <img src="images/co02.png" alt="phone" class="header-phone img-responsive wow fadeInRight animated" style="visibility: visible; animation-name: fadeInRight;">
+                              <img src="assets/images/co02.png" alt="phone" class="header-phone img-responsive wow fadeInRight animated" style="visibility: visible; animation-name: fadeInRight;">
                           </div>
                       </div>
                   </div>
@@ -109,7 +109,8 @@
                           </div>
 
                       </div>
-                      <form class="form-horizontal" method="POST" action="leer.php" enctype="multipart/form-data" autocomplete="off">
+                      <?php echo form_open('landingpage_mpt/registrar_participante'); ?>
+                      <!-- <form class="form-horizontal" method="POST"  enctype="multipart/form-data" autocomplete="off"> -->
                         <div class="modal-body">
                           <div class="col-md-12 form-group ">
                             <label for="recipient-name" class="form-control-label">Nombre:</label>
@@ -149,7 +150,8 @@
                           <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Cancelar</button>
                           <button type="submit" id="btn_registrar" class="btn btn-primary">Registrar</button>
                         </div>
-                      </form>
+                      <!-- </form> -->
+                      <?php echo form_close(); ?>
                     </div>
                     <!-- /.modal-content -->
                   </div>
@@ -167,7 +169,7 @@
                               <span class="icon-bar"></span>
                               <span class="icon-bar"></span>
                           </button>
-                          <a class="navbar-brand site-name" href="#top"><img src="images/desafiaTXT.png" alt="logo"></a>
+                          <a class="navbar-brand site-name" href="#top"><img src="assets/images/desafiaTXT.png" alt="logo"></a>
                       </div>
 
                       <div id="navbar-scroll" class="collapse navbar-collapse navbar-backyard navbar-right">
@@ -191,7 +193,7 @@
                   <div class="row">
                       <!-- /.intro image -->
                       <div class="col-md-6 intro-pic wow slideInLeft animated" style="visibility: visible; animation-name: slideInLeft;">
-                          <img src="images/desafiaTXT2.png" alt="image" class="img-responsive">
+                          <img src="assets/images/desafiaTXT2.png" alt="image" class="img-responsive">
                       </div>
 
                       <!-- /.intro content -->
@@ -224,7 +226,7 @@
 
                           <!-- /.feature image -->
                           <div class="feature-img">
-                              <img src="images/desarrollo-de-aplicaciones-moviles-ios-android.png" alt="image" class="img-responsive wow fadeInLeft img-app  animated" style="margin: auto; visibility: visible; animation-name: fadeInLeft;">
+                              <img src="assets/images/desarrollo-de-aplicaciones-moviles-ios-android.png" alt="image" class="img-responsive wow fadeInLeft img-app  animated" style="margin: auto; visibility: visible; animation-name: fadeInLeft;">
                           </div>
                       </div>
 
@@ -284,7 +286,7 @@
               </div>
           </div>
           <div id="beneficios">
-              <div class="action fullscreen parallax" style="background-image: url(&quot;images/celular.png&quot;); background-attachment: fixed; background-size: 1348px 899.116px; background-position: 50% -29.6616px;" data-img-width="2000" data-img-height="1334" data-diff="100">
+              <div class="action fullscreen parallax" style="background-image: url(&quot;assets/images/celular.png&quot;); background-attachment: fixed; background-size: 1348px 899.116px; background-position: 50% -29.6616px;" data-img-width="2000" data-img-height="1334" data-diff="100">
                   <div class="overlay">
                       <div class="container">
                           <div class="row">
@@ -317,7 +319,7 @@
 
                                       <!-- /.phone image -->
                                       <div class="col-md-5" style="margin-bottom: 135px;">
-                                          <img src="images/winner.png" alt="phone">
+                                          <img src="assets/images/winner.png" alt="phone">
                                       </div>
                                   </div>
                                   <!-- /.download buttons -->
@@ -352,7 +354,7 @@
 
 
                       <div class="col-md-6 feature-2-pic wow fadeInRight">
-                          <img src="images/desarrollo-apps-mallorca.jpg" alt="image" class="img-responsive">
+                          <img src="assets/images/desarrollo-apps-mallorca.jpg" alt="image" class="img-responsive">
                       </div>
                   </div>
 
@@ -362,7 +364,7 @@
 
           <!-- /.subscribe section -->
   <!--         <div id="subscribe">
-              <div class="subscribe fullscreen parallax" style="background-image:url('images/bg.jpg');" data-img-width="1920" data-img-height="1281" data-diff="100">
+              <div class="subscribe fullscreen parallax" style="background-image:url('assets/images/bg.jpg');" data-img-width="1920" data-img-height="1281" data-diff="100">
                   <div class="overlay">
                       <div class="container">
 
@@ -402,21 +404,21 @@
 
                           <!-- /.screenshot images -->
                           <div class="owl-wrapper-outer"><div class="owl-wrapper" style="width: 4688px; left: 0px; display: block;"><div class="owl-item" style="width: 293px;"><div class="screen wow fadeInUp" style="visibility: hidden; animation-name: none;">
-                              <a href="images/screenshot.jpg" data-toggle="lightbox"><img src="images/caja_tacna.jpg" alt="Screenshot"></a>
+                              <a href="assets/images/screenshot.jpg" data-toggle="lightbox"><img src="assets/images/caja_tacna.jpg" alt="Screenshot"></a>
                           </div></div><div class="owl-item" style="width: 293px;"><div class="screen wow fadeInUp" data-wow-delay="0.1s" style="visibility: hidden; animation-delay: 0.1s; animation-name: none;">
-                              <a href="images/screenshot.jpg" data-toggle="lightbox"><img src="images/caja_tacna.jpg" alt="Screenshot"></a>
+                              <a href="assets/images/screenshot.jpg" data-toggle="lightbox"><img src="assets/images/caja_tacna.jpg" alt="Screenshot"></a>
                           </div></div><div class="owl-item" style="width: 293px;"><div class="screen wow fadeInUp" data-wow-delay="0.2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;">
-                              <a href="images/screenshot.jpg" data-toggle="lightbox"><img src="images/caja_tacna.jpg" alt="Screenshot"></a>
+                              <a href="assets/images/screenshot.jpg" data-toggle="lightbox"><img src="assets/images/caja_tacna.jpg" alt="Screenshot"></a>
                           </div></div><div class="owl-item" style="width: 293px;"><div class="screen wow fadeInUp" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none;">
-                              <a href="images/screenshot.jpg" data-toggle="lightbox"><img src="images/caja_tacna.jpg" alt="Screenshot"></a>
+                              <a href="assets/images/screenshot.jpg" data-toggle="lightbox"><img src="assets/images/caja_tacna.jpg" alt="Screenshot"></a>
                           </div></div><div class="owl-item" style="width: 293px;"><div class="screen wow fadeInUp" data-wow-delay="0.4s" style="visibility: hidden; animation-delay: 0.4s; animation-name: none;">
-                              <a href="images/screenshot.jpg" data-toggle="lightbox"><img src="images/caja_tacna.jpg" alt="Screenshot"></a>
+                              <a href="assets/images/screenshot.jpg" data-toggle="lightbox"><img src="assets/images/caja_tacna.jpg" alt="Screenshot"></a>
                           </div></div><div class="owl-item" style="width: 293px;"><div class="screen wow fadeInUp" data-wow-delay="0.5s" style="visibility: hidden; animation-delay: 0.5s; animation-name: none;">
-                              <a href="images/screenshot.jpg" data-toggle="lightbox"><img src="images/caja_tacna.jpg" alt="Screenshot"></a>
+                              <a href="assets/images/screenshot.jpg" data-toggle="lightbox"><img src="assets/images/caja_tacna.jpg" alt="Screenshot"></a>
                           </div></div><div class="owl-item" style="width: 293px;"><div class="screen wow fadeInUp" data-wow-delay="0.6s" style="visibility: hidden; animation-delay: 0.6s; animation-name: none;">
-                              <a href="images/screenshot.jpg" data-toggle="lightbox"><img src="images/caja_tacna.jpg" alt="Screenshot"></a>
+                              <a href="assets/images/screenshot.jpg" data-toggle="lightbox"><img src="assets/images/caja_tacna.jpg" alt="Screenshot"></a>
                           </div></div><div class="owl-item" style="width: 293px;"><div class="screen wow fadeInUp" data-wow-delay="0.7s" style="visibility: hidden; animation-delay: 0.7s; animation-name: none;">
-                              <a href="images/screenshot.jpg" data-toggle="lightbox"><img src="images/caja_tacna.jpg" alt="Screenshot"></a>
+                              <a href="assets/images/screenshot.jpg" data-toggle="lightbox"><img src="assets/images/caja_tacna.jpg" alt="Screenshot"></a>
                           </div></div></div></div>
                   </div>
               </div>
@@ -428,7 +430,7 @@
           <!-- /.download section -->
           <!-- /.contact section -->
           <div id="contact">
-              <div class="contact fullscreen parallax" style="background-image: url(&quot;images/celular.png&quot;); background-attachment: fixed; background-size: 1348px 899.116px;" data-img-width="2000" data-img-height="1334" data-diff="100">
+              <div class="contact fullscreen parallax" style="background-image: url(&quot;assets/images/celular.png&quot;); background-attachment: fixed; background-size: 1348px 899.116px;" data-img-width="2000" data-img-height="1334" data-diff="100">
                   <div class="overlay">
                       <div class="container">
                           <div class="row contact-row">

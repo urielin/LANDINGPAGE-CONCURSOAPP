@@ -911,3 +911,14 @@ and (orientation : landscape) {
 .premios-app{
     margin-left: 66px;
 }
+.boton-desafio {
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+}
+.botones-desafio {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    justify-content: space-between;
+}

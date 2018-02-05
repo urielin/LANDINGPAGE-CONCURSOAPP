@@ -42,8 +42,6 @@
 
     <body data-spy="scroll" data-target="#navbar-scroll">
 
-
-
         <!-- /.preloader -->
         <div id="preloader"></div>
         <div id="top"></div>
@@ -81,14 +79,16 @@
                             <div class="head-btn wow fadeInLeft botones-app">
                                 <div class="botones-app" >
                                     <div class="boton1-app">
+
                                         <a href="basesDelConcurso.pdf"  target="_blank" class="btn-primary">Bases para el concurso</a>                                
                                     </div>
                                     <div>
                                         <a href="#" data-toggle='modal' data-target='#modal-registrar' class="btn-default">Subscríbete</a>    
                                     </div>                                    
+
                                 </div>
 
-                                
+
                             </div>
 
                             <!-- /.phone option -->
@@ -373,6 +373,7 @@
 
 
                       </div>
+
 <!--                       <div class="modal-footer">
                         <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Cancelar</button>
                         <button type="submit"  id="btn_registrar" name="btn_registrar" class="btn btn-primary">Registrar</button>
@@ -719,29 +720,6 @@
             </div>
 
         </footer>
-        <div id="modals">
-          <!-- <div class="modal" id="modal-file-concurso" role="dialog">
-              <div class="modal-dialog">
-
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">Base de DesafioAPP Tacna</h4>
-                  </div>
-                  <div class="modal-body">
-                    <div class="iframe-container">
-                      <object src="assets/CONCURSO.pdf">
-                        <embed style="width: 50vw; height: 70vh;" src="assets/CONCURSO.pdf"></embed></object></div>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                  </div>
-                </div>
-
-              </div>
-            </div> -->
-        </div>
-
 
         <script type="text/javascript">       
 
@@ -793,6 +771,7 @@
         <script src="js/funcion.js"></script>
         
         <script type="text/javascript">        
+
             $( document ).delegate( '*[data-toggle="lightbox"]', 'click', function ( event ) {
                 event.preventDefault();
                 $( this ).ekkoLightbox();

@@ -46,6 +46,7 @@
 /*     $a=array($nombre,$apellido,$dni,$ciudad,$celular,$email,$titulo,$descripcion);
      print_r($a); 
 
+<<<<<<< HEAD
      print "<script type='text/javascript'>alert('registrado correctamente');</script>";       */
 
      $nombreServerActual = $_SERVER['SERVER_NAME'];  
@@ -227,6 +228,7 @@
                               )
                 ";
 
+
                 $infopersonal3=mssql_query($sql3);
 
                 /*if(sqlsrv_execute($infopersonal3)){                  
@@ -240,5 +242,6 @@
      }
         print "<script type='text/javascript'>alert('registrado correctamente');</script>";    	
         print "<meta http-equiv=\"refresh\" content=\"0;URL='./'\">";    		
+
 
     ?>

@@ -1,0 +1,6 @@
+{
+    "name": "landingpage-mpt",
+    "require": {
+        "phpmailer/phpmailer": "5.2.*"
+    }
+}

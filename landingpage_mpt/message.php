@@ -315,7 +315,7 @@ Sizes: [
 
 
 							<!-- MODULE ROW // -->
-							
+
 							<tr>
 								<td align="center" valign="top">
 									<!-- CENTERING TABLE // -->
@@ -1126,7 +1126,9 @@ Sizes: [
 																		<table border="0" cellpadding="0" cellspacing="0" width="100%">
 																			<tr>
 																				<td valign="top" class="textContent">
-																					<div style="text-align:center;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;margin-top:3px;color:#5F5F5F;line-height:135%;">Empty row for your custom contents</div>
+																					<div style="text-align:center;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;margin-top:3px;color:#5F5F5F;line-height:135%;">
+																						Para confirmar el registro de su aplicativo movil debera imprimir el presente mensaje y presentarlo
+																						en la Subgerencia de tecnologia de informacion y Comunicaciones de la Municipalidad Provincial de Tacna</div>
 																				</td>
 																			</tr>
 																		</table>

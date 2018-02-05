@@ -443,7 +443,7 @@
                                           Anexo 211
                                       </li>
                                       <li><i class="pe-7s-mail"></i><a href="desafiomovil2018@munitacna.gob.pe">desafiomovil2018@munitacna.gob.pe</a></li>
-                                      <li><i class="pe-7s-look"></i><a href="#">desafiomovil2018.gob.pe</a></li>
+                                      <li><i class="pe-7s-look"></i><a href="#">desafiomovil2018.munitacna.gob.pe</a></li>
                                   </ul>
 
                               </div>

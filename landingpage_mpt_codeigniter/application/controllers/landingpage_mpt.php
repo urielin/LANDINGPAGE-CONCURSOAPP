@@ -45,7 +45,7 @@ class landingpage_mpt extends CI_Controller {
 		 $this->load->library("email");
 		 //configuracion para gmail
 		 $configGmail = array(
-		 'protocol' => 'smtp',
+		 'protocol' => 'mail',
 		 'smtp_host' => 'mail.munitacna.gob.pe',
 		 'smtp_port' => 465,
 		 'smtp_user' => 'desafiomovil2018@munitacna.gob.pe',

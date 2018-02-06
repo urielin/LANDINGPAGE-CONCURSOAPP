@@ -83,7 +83,7 @@ if ($nombreServerActual=='localhost') {
           USUARIO : <?php echo strtoupper($_SESSION['usuario']);?>
           <span class="caret"></span></button>
 
-          <ul class="dropdown-menu" style="width: 100%;">
+          <ul class="menu-app dropdown-menu">
             <li>
               <a href="cerrar_sesion.php"  class="btn btn-primary" type="button" style="margin: 0px 0 10px;border-radius: 0px;">CERRAR SESION</a>              
             </li>            

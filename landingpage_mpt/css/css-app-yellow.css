@@ -817,6 +817,10 @@ and (orientation : landscape) {
 	}
 }
 
+.menu-app{
+	width: 100%;
+}
+
 /* iPhone 4 (landscape) ----------- */
 @media (max-width: 480px) {
 	.feat-list i {
@@ -836,6 +840,9 @@ and (orientation : landscape) {
 		width: 323px;
     	margin: auto;
     	margin-bottom: -30px;
+	}
+	.menu-app{
+		width: 103%;
 	}
 }
 
@@ -944,10 +951,11 @@ and (orientation : landscape) {
 /*	margin: 0px 0 10px;
 	border-radius: 0px;	
 	width: 250px;*/	
-	margin: 1px 4px 6px 10px;
+	margin: 1px 4px 6px -1px;
 	    border-radius: 0px;
 	    width: 310px;
 }
 .contenedor-app{
-	    width: 1235px;
+	    /*width: 1235px;*/
+	    width: 91.5%;
 }

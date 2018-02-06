@@ -18,7 +18,7 @@ function smtpmailer($to, $from, $from_name, $subject, $body, $is_gmail = false) 
 	global $error;
 	$mail = new PHPMailer();
 	$mail->IsSMTP();
-	$mail->SMTPDebug = 1;
+	$mail->SMTPDebug = 0;  //PARA MOSTRAR LOS ERRORES DEL ENVIO CAMBIAR VALOR A  = 1
 	$mail->SMTPAuth = true;
 	//$mail->Port = 465;
 	if ($is_gmail) {
@@ -35,6 +35,7 @@ function smtpmailer($to, $from, $from_name, $subject, $body, $is_gmail = false) 
 	$mail->SetFrom($from, $from_name);
 	$mail->Subject = $subject;
 	$mail->Body = $body;
+	$mail->IsHTML(true);
 	$mail->AddAddress($to);
 	if(!$mail->Send()) {
 		$error = 'Mail error: '.$mail->ErrorInfo;

@@ -1,5 +1,9 @@
     <?php      
 
+/*    session_start();
+
+    if (isset($_SESSION['usuario'])) {
+    */
      $titulo = $_POST['titulo'];
      $descripcion = $_POST['descripcion'];
 
@@ -52,6 +56,8 @@
      $nombreServerActual = $_SERVER['SERVER_NAME'];  
 
      if ($nombreServerActual=='localhost') {
+/*        $serverName = "EDWIN-PC\SQLEXPRESS";
+        $connectionInfo = array( "Database"=>"BDCONCURSOAPP", "UID"=>"sa", "PWD"=>"123456");*/
         $serverName = "10.10.1.55";
         $connectionInfo = array( "Database"=>"BDCONCURSOAPP", "UID"=>"udesafiomovil", "PWD"=>"principal*123");
         $conn = sqlsrv_connect( $serverName, $connectionInfo);
@@ -138,11 +144,12 @@
         ";
 
         $infopersonal3=sqlsrv_prepare($conn,$sql3); 
-        if(sqlsrv_execute($infopersonal3)){                  
+        sqlsrv_execute($infopersonal3); 
+/*        if(sqlsrv_execute($infopersonal3)){                  
               print "<script type='text/javascript'>alert('registrado correctamente');</script>";
         }else{                  
               print "<script type='text/javascript'>alert('No fue registrado correctamente, vuelve a ingresar');</script>";
-        }            
+        }            */
            
      }
      else{
@@ -240,8 +247,12 @@
                 mssql_close();
 
      }
-        print "<script type='text/javascript'>alert('registrado correctamente');</script>";    	
-        print "<meta http-equiv=\"refresh\" content=\"0;URL='./'\">";    		
+/*        print "<script type='text/javascript'>alert('registrado correctamente');</script>";    	
+        print "<meta http-equiv=\"refresh\" content=\"0;URL='./'\">";    		    */
+        echo file_get_contents("./message_confirmation.php",FILE_USE_INCLUDE_PATH);
 
+/*    }else{
+      print "<meta http-equiv=\"refresh\" content=\"0;URL='login.php'\">";       
+    }*/
 
     ?>

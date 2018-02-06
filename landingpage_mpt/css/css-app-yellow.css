@@ -4,6 +4,7 @@
 * Author: MoxDesign - http://www.moxdesign.com
 **/
 
+
 html, body {
 	width: 100%;
 	overflow-x: hidden;
@@ -687,6 +688,13 @@ and (orientation : landscape) {
 	#client img {
 		max-height: 45px;
 	}	
+
+}
+
+@media (max-width: 1024px) {
+	.tabla_responsi{
+		overflow-x: scroll;
+	}
 }
 
 /* smart-phone ----------- */
@@ -718,7 +726,13 @@ and (orientation : landscape) {
 	}
 	#client img {
 		margin: 10px 0 10px;
-	}	
+	}
+	.encabezado{
+		display: flex;
+		flex-direction: column-reverse;
+		text-align: center;
+	}
+
 }	
 /* iPhone 6Plus (landscape) ----------- */
 @media (max-width: 736px) {
@@ -921,4 +935,19 @@ and (orientation : landscape) {
     margin: auto;
     width: 100%;
     justify-content: space-between;
+}
+.encabezado{
+	display: flex;
+	justify-content: space-between;
+}
+.boton_sesion{
+/*	margin: 0px 0 10px;
+	border-radius: 0px;	
+	width: 250px;*/	
+	margin: 1px 4px 6px 10px;
+	    border-radius: 0px;
+	    width: 310px;
+}
+.contenedor-app{
+	    width: 1235px;
 }

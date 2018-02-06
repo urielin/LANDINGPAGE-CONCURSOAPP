@@ -260,9 +260,9 @@ Sizes: [
 																			<tr>
 																				<td align="left" class="textContent">
 																					<!-- CONTENT // -->
-																					<div style="font-family:Helvetica,Arial,sans-serif;font-size:13px;color:#828282;text-align:center;line-height:120%;">
+																					<!-- <div style="font-family:Helvetica,Arial,sans-serif;font-size:13px;color:#828282;text-align:center;line-height:120%;">
 																						If you can't see this message, <a href="#" target="_blank" style="text-decoration:none;border-bottom:1px solid #828282;color:#828282;"><span style="color:#828282;">view&nbsp;it&nbsp;in&nbsp;your&nbsp;browser</span></a>.
-																					</div>
+																					</div> -->
 																				</td>
 																			</tr>
 																		</table>
@@ -346,7 +346,8 @@ Sizes: [
 															<table border="0" cellpadding="30" cellspacing="0" width="100%">
 																<tr>
 																	<td align="center" valign="top" class="textContent">
-																		<div style="text-align:center;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;color:#FFFFFF;line-height:135%;">Su registro fue exitoso.</div>
+																		<div style="text-align:center;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;color:#FFFFFF;line-height:135%;">
+																			FELICIDADES. YA ERES PARTICIPE DE DESAFIO MOVIL 2018</div>
 																	</td>
 																</tr>
 															</table>
@@ -393,8 +394,9 @@ Sizes: [
 									<!-- // CENTERING TABLE -->
 								</td>
 							</tr>
+							<!-- MODULE ROW // -->
 
-							<tr mc:hideable>
+							<tr>
 								<td align="center" valign="top">
 									<!-- CENTERING TABLE // -->
 									<table border="0" cellpadding="0" cellspacing="0" width="100%">
@@ -409,21 +411,21 @@ Sizes: [
 															<table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
 																<tr>
 																	<td align="left" valign="top" class="flexibleContainerBox">
-																		<table border="0" cellpadding="0" cellspacing="0" width="210" style="max-width: 100%;">
+																		<table border="0" cellpadding="0" cellspacing="0" width="210" style="max-width:100%;">
 																			<tr>
 																				<td align="left" class="textContent">
-																					<h3 style="color:#5F5F5F;line-height:125%;font-family:Helvetica,Arial,sans-serif;font-size:20px;font-weight:normal;margin-top:0;margin-bottom:3px;text-align:left;">Left Column</h3>
-																					<div style="text-align:left;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;color:#5F5F5F;line-height:135%;">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis.</div>
+																					<img src="http://munitacna.gob.pe/desafiomovil2018/images/desafiaTXT2.png"desafiaTXT2.png width="210" class="flexibleImage" style="max-width:100%;" alt="Text" title="Text" />
 																				</td>
 																			</tr>
 																		</table>
 																	</td>
-																	<td align="right" valign="middle" class="flexibleContainerBox">
-																		<table class="flexibleContainerBoxNext" border="0" cellpadding="0" cellspacing="0" width="210" style="max-width: 100%;">
+																	<td align="right" valign="top" class="flexibleContainerBox">
+																		<table class="flexibleContainerBoxNext" border="0" cellpadding="0" cellspacing="0" width="210" style="max-width:100%;">
 																			<tr>
 																				<td align="left" class="textContent">
-																					<h3 style="color:#5F5F5F;line-height:125%;font-family:Helvetica,Arial,sans-serif;font-size:20px;font-weight:normal;margin-top:0;margin-bottom:3px;text-align:left;">Right Column</h3>
-																					<div style="text-align:left;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;color:#5F5F5F;line-height:135%;">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis.</div>
+																					<div style="text-align:left;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;color:#5F5F5F;line-height:135%;">
+																						En un plazo de 72 horas el representante de la aplicacion recibira un correo de confirmacion el cual debera ser impreso y presentado en nuestras oficinas.</div>
+																					</div>
 																				</td>
 																			</tr>
 																		</table>
@@ -442,6 +444,7 @@ Sizes: [
 									<!-- // CENTERING TABLE -->
 								</td>
 							</tr>
+							<!-- // MODULE ROW -->
 							<!-- // MODULE ROW -->
 
 
@@ -461,7 +464,9 @@ Sizes: [
 															<table border="0" cellpadding="0" cellspacing="0" width="50%" class="emailButton" style="background-color: #3498DB;">
 																<tr>
 																	<td align="center" valign="middle" class="buttonContent" style="padding-top:15px;padding-bottom:15px;padding-right:15px;padding-left:15px;">
-																		<a style="color:#FFFFFF;text-decoration:none;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:135%;" href="#" target="_blank">Confirmation</a>
+																		<a style="color:#FFFFFF;text-decoration:none;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:135%;" href="./" >
+																			REGRESAR
+																		</a>
 																	</td>
 																</tr>
 															</table>
@@ -480,43 +485,7 @@ Sizes: [
 							<!-- // MODULE ROW -->
 
 
-							<tr>
-								<td align="center" valign="top">
-									<!-- CENTERING TABLE // -->
-									<table border="0" cellpadding="0" cellspacing="0" width="100%">
-										<tr>
-											<td align="center" valign="top">
-												<!-- FLEXIBLE CONTAINER // -->
-												<table border="0" cellpadding="0" cellspacing="0" width="500" class="flexibleContainer">
-													<tr>
-														<td align="center" valign="top" width="500" class="flexibleContainerCell">
-															<table border="0" cellpadding="30" cellspacing="0" width="100%">
-																<tr>
-																	<td align="center" valign="top">
 
-																		<!-- CONTENT TABLE // -->
-																		<table border="0" cellpadding="0" cellspacing="0" width="100%">
-																			<tr>
-																				<td valign="top" class="textContent">
-																					<div style="text-align:center;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;margin-top:3px;color:#5F5F5F;line-height:135%;">Empty row for your custom contents</div>
-																				</td>
-																			</tr>
-																		</table>
-																		<!-- // CONTENT TABLE -->
-
-																	</td>
-																</tr>
-															</table>
-														</td>
-													</tr>
-												</table>
-												<!-- // FLEXIBLE CONTAINER -->
-											</td>
-										</tr>
-									</table>
-									<!-- // CENTERING TABLE -->
-								</td>
-							</tr>
 							<!-- // MODULE ROW -->
 
 						</table>
@@ -551,8 +520,8 @@ Sizes: [
 																	<td valign="top" bgcolor="#E1E1E1">
 
 																		<div style="font-family:Helvetica,Arial,sans-serif;font-size:13px;color:#828282;text-align:center;line-height:120%;">
-																			<div>Copyright &#169; 2014 <a href="http://www.charlesmudy.com/respmail/" target="_blank" style="text-decoration:none;color:#828282;"><span style="color:#828282;">Respmail</span></a>. All&nbsp;rights&nbsp;reserved.</div>
-																			<div>If you do not want to receive emails from us, you can <a href="#" target="_blank" style="text-decoration:none;color:#828282;"><span style="color:#828282;">unsubscribe</span></a>.</div>
+																			<div>©Copyright DesafioApp <a href="http://munitacna.gob.pe/" target="_blank" style="text-decoration:none;color:#828282;"><span style="color:#828282;">
+																				 Sub Gerencia de Tecnologías de Información y Comunicaciones</span></a>. All&nbsp;rights&nbsp;reserved.</div>
 																		</div>
 
 																	</td>

@@ -51,7 +51,6 @@ require "email_message.php";
 /*     $a=array($nombre,$apellido,$dni,$ciudad,$celular,$email,$titulo,$descripcion);
      print_r($a);
 
-<<<<<<< HEAD
      print "<script type='text/javascript'>alert('registrado correctamente');</script>";       */
 
      $nombreServerActual = $_SERVER['SERVER_NAME'];

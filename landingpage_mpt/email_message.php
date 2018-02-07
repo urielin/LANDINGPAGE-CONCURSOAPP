@@ -427,10 +427,10 @@
                                             <tr>
                                               <td align="left" valign="top" class="textContent">
                                                 <div style="text-align:left;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;margin-top:10px;color:#5F5F5F;line-height:135%;">
-                                                    El presente documento certifca la inscripción correcta en el concurso Desafio Móvil 2018. Y que la información consignada en el registro web es válida.
+                                                    El presente documento certifca la inscripciï¿½n correcta en el concurso Desafio Mï¿½vil 2018. Y que la informaciï¿½n consignada en el registro web es vï¿½lida.
                                                     <br>
                                                     <br>
-                                                    Además el proyecto estará representado por:
+                                                    Ademï¿½s el proyecto estarï¿½ representado por:
                                                 </div>
                                               </td>
                                             </tr>
@@ -616,8 +616,8 @@
                                                   <tr>
                                                     <td valign="top" class="textContent">
                                                       <div style="text-align:center;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;margin-top:3px;color:#5F5F5F;line-height:135%;">
-                                                        Para confirmar el registro de su aplicativo móvil deberá imprimirse y presentarse
-                                                        en la Sub Gerencia de Tecnologí­as de Información y Comunicaciones de la Municipalidad Provincial de Tacna</div>
+                                                        Para confirmar el registro de su aplicativo mï¿½vil deberï¿½ imprimirse y presentarse
+                                                        en la Sub Gerencia de Tecnologï¿½ï¿½as de Informaciï¿½n y Comunicaciones de la Municipalidad Provincial de Tacna</div>
                                                     </td>
                                                   </tr>
                                                 </table>
@@ -674,8 +674,8 @@
                                 <td valign="top" bgcolor="#E1E1E1">
 
                                   <div style="font-family:Helvetica,Arial,sans-serif;font-size:13px;color:#828282;text-align:center;line-height:120%;">
-                                    <div>©Copyright DesafioApp <a href="http://munitacna.gob.pe/" target="_blank" style="text-decoration:none;color:#828282;"><span style="color:#828282;">
-                                       Sub Gerencia de Tecnologí­as de Información y Comunicaciones</span></a>.</div>
+                                    <div>ï¿½Copyright DesafioApp <a href="http://munitacna.gob.pe/" target="_blank" style="text-decoration:none;color:#828282;"><span style="color:#828282;">
+                                       Sub Gerencia de Tecnologï¿½ï¿½as de Informaciï¿½n y Comunicaciones</span></a>.</div>
                                   </div>
 
                                 </td>
@@ -705,9 +705,9 @@
 <?php
     return ob_get_clean();
 }
-$nombres="nombres";
-$apellidos="apellidos";
-$nombreapp="nombreapp";
-$email_message=email_message($nombres,$apellidos,$nombreapp);
-echo $email_message;
+// $nombres="nombres";
+// $apellidos="apellidos";
+// $nombreapp="nombreapp";
+// $email_message=email_message($nombres,$apellidos,$nombreapp);
+// echo $email_message;
 ?>

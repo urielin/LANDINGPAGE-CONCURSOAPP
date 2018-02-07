@@ -258,7 +258,7 @@ require "email_message.php";
         // $apellidos="Urielapp";
         // $nombreapp="Urielapp";
         $email_message=email_message($nombres,$apellidos,$nombreapp);
-        echo $email_message;
+        // echo $email_message;
         //ENVIAR MENSAJE A PERSONA REGISTRADA
         $msg = $email_message;
         $subj = 'Registro Exitoso Desafio Movil 2018';

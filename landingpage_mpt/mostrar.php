@@ -167,7 +167,7 @@ if ($nombreServerActual=='localhost') {
 
       <div class="encabezado">
         <div class="titulo_mostrar" style="text-align: center;height: 100%;width: 100%;margin: 3%;">
-          <h2 class="titulo_ins wow fadeInLeft animated animated" >LISTA DE INSCRITOS</h2>
+          <h2 class="titulo_ins wow fadeInLeft animated animated" >LISTA DE CONCURSANTES</h2>
         </div>
         <div>
 

@@ -31,7 +31,9 @@
 	          
 	  } 	 
 
-	$html ='    <header class="clearfix">
+
+	$html ='      
+      <header class="clearfix">
       <table width="100%" border="0" style="height:  100px;">
         <tbody>
             <tr>
@@ -42,6 +44,7 @@
         </tbody>
       </table>
     </header>
+    <h1>LISTA DE CONCURSANTES</h1>
     <main>
       <table>
         <thead>

@@ -73,7 +73,7 @@ if ($nombreServerActual=='localhost') {
       margin: 0 auto;
   }
   .encabezado-desafio {
-    background-image:url('images/app2.jpg');
+    background-image:url('images/app2.jpeg');
     height: 245px;
     background-attachment: fixed;
     background-size: 1814px 897.775px;

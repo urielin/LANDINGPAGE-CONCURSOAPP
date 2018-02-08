@@ -261,13 +261,12 @@ if ($nombreServerActual=='localhost') {
     </div>
 
     <div class="modal fade in" id="modal-ver" >
-            <div class="modal-dialog" style="width:90%;    MARGIN: AUTO;
-    margin-top: 24px;">
+            <div class="modal-dialog" style="width:90%;margin:auto;margin-top: 24px;">
               <div class="modal-content">
                 <div class="modal-header" class="margin: auto;text-align: center;">
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">×</span></button>
-                  <h4 class="modal-title" style="text-align: center;">REPRESENTANTES DE LA APLICACIÓN</h4>                                    
+                    <span aria-hidden="true">X</span></button>
+                  <h4 class="modal-title" style="text-align: center;">REPRESENTANTES DE LA APLICACI�N</h4>                                    
                 </div>
 
                   <div class="modal-body">

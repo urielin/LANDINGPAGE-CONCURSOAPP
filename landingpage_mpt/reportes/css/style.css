@@ -149,3 +149,6 @@ footer {
 .header_pdf{
   background: blue;
 }
+.ancho_descripcion{
+  width: 160px;
+}

@@ -56,7 +56,7 @@
             <th class="representante">Email</th>
             <th class="representante">Categoria</th>
             <th class="representante">Titulo</th>
-            <th class="representante">Descripcion</th>            
+            <th style="width:260px;text-align:center;" class="ancho_descripcion representante">Descripcion</th>            
           </tr>
         </thead>
         <tbody>';       

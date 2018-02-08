@@ -62,13 +62,13 @@
 
     <div class="wrapper container">
       <form class="form-signin">      
-        <h2 class="form-signin-heading" style="text-align:center;">Ingresar SesiÃ³n</h2>
+        <h2 class="form-signin-heading" style="text-align:center;">Ingresar Sesión</h2>
 
         <label for="usuario" class=" sr-only">Usuario</label>        
         <input type="text" id="usuario" name="usuario" class="form-control" placeholder="Usuario" required autofocus>
 
-        <label for="clave" class="sr-only">ContraseÃ±a</label>
-        <input type="password" id="clave" name="clave"  class="form-control " placeholder="Clave" required>
+        <label for="clave" class="sr-only">Contraseña</label>
+        <input type="password" id="clave" name="clave"  class="form-control " placeholder="Contraseña" required>
 
         <button class="btn btn-lg btn-primary btn-block" type="button" onclick="javascript:verificar();">Ingresar</button>
 

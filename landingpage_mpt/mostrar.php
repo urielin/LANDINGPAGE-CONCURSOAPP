@@ -101,7 +101,8 @@ if ($nombreServerActual=='localhost') {
     flex-direction: column-reverse;
   }
   .contenedor_pdf{
-    margin-left: 5px;
+    /*margin-left: 5px;*/
+    margin-left: -26px;
     margin-right: 5px;
   }
   @media (max-width: 767px) {
@@ -138,7 +139,7 @@ if ($nombreServerActual=='localhost') {
     <div class="desafio_pdf">
       <div class="responsive_generar">
         <div> 
-          <a href="../landingpage_mpt/reportes/concursantes.php" target="_blank">
+          <a href="../reportes/concursantes.php" target="_blank">
             <button type="button" class="btn btn-primary pull-right" style="margin-right: 5px;">
                 <i class="glyphicon glyphicon-save" ></i> GENERAR PDF
             </button>
@@ -271,7 +272,7 @@ if ($nombreServerActual=='localhost') {
 
                   <div class="modal-body">
                       <div class="generar_titulo " > 
-                        <a href="../landingpage_mpt/reportes/representantes.php" target="_blank">
+                        <a href="../reportes/representantes.php" target="_blank">
                           <button type="button" class="btn btn-primary pull-right" style="margin-right: 5px;">
                               <i class="glyphicon glyphicon-save" ></i> GENERAR PDF
                           </button>

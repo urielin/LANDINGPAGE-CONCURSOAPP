@@ -1,39 +1,4 @@
-<!--
-==================== Respmail ====================
-Respmail is a response HTML email designed to work
-on all major devices and responsive for smartphones
-that support media queries.
 
-** NOTE **
-This template comes with a lot of standard features
-that has been thoroughly tested on major platforms
-and devices, it is extremely flexible to use and
-can be easily customized by removing any row that
-you do not need.
-
-it is gauranteed to work 95% without any major flaws,
-any changes or adjustments should thoroughly be
-tested and reviewed to match with the general
-structure.
-
-** Profile **
-Licensed under MIT (https://github.com/charlesmudy/responsive-html-email-template/blob/master/LICENSE)
-Designed by Shina Charles Memud
-Respmail v1.2 (http://charlesmudy.com/respmail/)
-
-** Quick modification **
-We are using width of 500 for the whole content,
-you can change it any size you want (e.g. 600).
-The fastest and safest way is to use find & replace
-Sizes: [
-		wrapper   : '500',
-		columns   : '210',
-		x-columns : [
-						left : '90',
-						right: '350'
-				]
-		}
-	-->
 
 	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 	<html xmlns="http://www.w3.org/1999/xhtml">
@@ -42,7 +7,7 @@ Sizes: [
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="format-detection" content="telephone=no" /> <!-- disable auto telephone linking in iOS -->
-		<title>Respmail is a response HTML email designed to work on all major email platforms and smartphones</title>
+		<title>Desafiomovil2018</title>
 		<style type="text/css">
 			/* RESET STYLES */
 			html { background-color:#E1E1E1; margin:0; padding:0; }
@@ -217,7 +182,7 @@ Sizes: [
 							Its width can be set to 100% for a color band
 							that spans the width of the page.
 						-->
-						<table bgcolor="#E1E1E1" border="0" cellpadding="0" cellspacing="0" width="500" id="emailHeader">
+						<table bgcolor="#E1E1E1" border="0" cellpadding="0" cellspacing="0" width="550" id="emailHeader">
 
 							<!-- HEADER ROW // -->
 							<tr>
@@ -227,7 +192,7 @@ Sizes: [
 										<tr>
 											<td align="center" valign="top">
 												<!-- FLEXIBLE CONTAINER // -->
-												<table border="0" cellpadding="10" cellspacing="0" width="500" class="flexibleContainer">
+												<table border="0" cellpadding="10" cellspacing="0" width="550" class="flexibleContainer">
 													<tr>
 														<td valign="top" width="500" class="flexibleContainerCell">
 
@@ -290,7 +255,7 @@ Sizes: [
 							Its width can be set to 100% for a color band
 							that spans the width of the page.
 						-->
-						<table bgcolor="#FFFFFF"  border="0" cellpadding="0" cellspacing="0" width="500" id="emailBody">
+						<table bgcolor="#FFFFFF"  border="0" cellpadding="0" cellspacing="0" width="550" id="emailBody">
 
 							<!-- MODULE ROW // -->
 							<!--
@@ -333,7 +298,7 @@ Sizes: [
 													Most content tables within can then be
 													given 100% widths.
 												-->
-												<table border="0" cellpadding="0" cellspacing="0" width="500" class="flexibleContainer">
+												<table border="0" cellpadding="0" cellspacing="0" width="550" class="flexibleContainer">
 													<tr>
 														<td align="center" valign="top" width="500" class="flexibleContainerCell">
 
@@ -347,7 +312,7 @@ Sizes: [
 																<tr>
 																	<td align="center" valign="top" class="textContent">
 																		<div style="text-align:center;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;color:#FFFFFF;line-height:135%;">
-																			FELICIDADES. YA ERES PARTICIPE DE DESAFIO MOVIL 2018</div>
+																			¡FELICIDADES!. YA ERES PARTICIPE DE DESAFIO MOVIL 2018</div>
 																	</td>
 																</tr>
 															</table>
@@ -370,7 +335,7 @@ Sizes: [
 										<tr>
 											<td align="center" valign="top">
 												<!-- FLEXIBLE CONTAINER // -->
-												<table border="0" cellpadding="0" cellspacing="0" width="500" class="flexibleContainer">
+												<table border="0" cellpadding="0" cellspacing="0" width="550" class="flexibleContainer">
 													<tr>
 														<td align="center" valign="top" width="500" class="flexibleContainerCell">
 
@@ -424,7 +389,13 @@ Sizes: [
 																			<tr>
 																				<td align="left" class="textContent">
 																					<div style="text-align:left;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;color:#5F5F5F;line-height:135%;">
-																						En un plazo de 72 horas el representante de la aplicacion recibira un correo de confirmacion el cual debera ser impreso y presentado en nuestras oficinas.</div>
+																						En breves momentos el representante de la aplicación recibirá un correo de confirmación el cual deberá ser impreso y presentado en nuestras oficinas.
+
+																						<br>
+																						<br>
+																						Sugerencia :<br>
+																						Revisa tambien tu bandeja de correo de SPAM
+																					</div>
 																					</div>
 																				</td>
 																			</tr>
@@ -456,7 +427,7 @@ Sizes: [
 										<tr style="padding-top:0;">
 											<td align="center" valign="top">
 												<!-- FLEXIBLE CONTAINER // -->
-												<table border="0" cellpadding="30" cellspacing="0" width="500" class="flexibleContainer">
+												<table border="0" cellpadding="30" cellspacing="0" width="550" class="flexibleContainer">
 													<tr>
 														<td style="padding-top:0;" align="center" valign="top" width="500" class="flexibleContainerCell">
 
@@ -497,7 +468,7 @@ Sizes: [
 							Its width can be set to 100% for a color band
 							that spans the width of the page.
 						-->
-						<table bgcolor="#E1E1E1" border="0" cellpadding="0" cellspacing="0" width="500" id="emailFooter">
+						<table bgcolor="#E1E1E1" border="0" cellpadding="0" cellspacing="0" width="550" id="emailFooter">
 
 							<!-- FOOTER ROW // -->
 							<!--
@@ -512,7 +483,7 @@ Sizes: [
 										<tr>
 											<td align="center" valign="top">
 												<!-- FLEXIBLE CONTAINER // -->
-												<table border="0" cellpadding="0" cellspacing="0" width="500" class="flexibleContainer">
+												<table border="0" cellpadding="0" cellspacing="0" width="550" class="flexibleContainer">
 													<tr>
 														<td align="center" valign="top" width="500" class="flexibleContainerCell">
 															<table border="0" cellpadding="30" cellspacing="0" width="100%">
@@ -520,8 +491,8 @@ Sizes: [
 																	<td valign="top" bgcolor="#E1E1E1">
 
 																		<div style="font-family:Helvetica,Arial,sans-serif;font-size:13px;color:#828282;text-align:center;line-height:120%;">
-																			<div>Â©Copyright DesafioApp <a href="http://munitacna.gob.pe/" target="_blank" style="text-decoration:none;color:#828282;"><span style="color:#828282;">
-																				 Sub Gerencia de TecnologÃ­as de InformaciÃ³n y Comunicaciones</span></a>. All&nbsp;rights&nbsp;reserved.</div>
+																			<div>©Copyright DesafioApp <a href="http://munitacna.gob.pe/" target="_blank" style="text-decoration:none;color:#828282;"><span style="color:#828282;">
+																				 Sub Gerencia de Tecnologías de Información y Comunicaciones</span></a>.</div>
 																		</div>
 
 																	</td>

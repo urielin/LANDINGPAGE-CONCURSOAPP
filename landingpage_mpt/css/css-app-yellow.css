@@ -733,6 +733,7 @@ and (orientation : landscape) {
 		text-align: center;
 	}
 
+
 }	
 /* iPhone 6Plus (landscape) ----------- */
 @media (max-width: 736px) {
@@ -959,3 +960,11 @@ and (orientation : landscape) {
 	    /*width: 1235px;*/
 	    width: 91.5%;
 }
+.titulo_mostrar{
+	    text-align: center;
+    height: 100%;
+    width: 100%;
+    margin: 3%;
+}
+
+	

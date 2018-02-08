@@ -191,67 +191,6 @@
           -->
           <table bgcolor="#E1E1E1" border="0" cellpadding="0" cellspacing="0" width="500" id="emailHeader">
 
-            <!-- HEADER ROW // -->
-            <tr>
-              <td align="center" valign="top">
-                <!-- CENTERING TABLE // -->
-                <table border="0" cellpadding="0" cellspacing="0" width="100%">
-                  <tr>
-                    <td align="center" valign="top">
-                      <!-- FLEXIBLE CONTAINER // -->
-                      <table border="0" cellpadding="10" cellspacing="0" width="500" class="flexibleContainer">
-                        <tr>
-                          <td valign="top" width="500" class="flexibleContainerCell">
-
-                            <!-- CONTENT TABLE // -->
-                            <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
-                              <tr>
-                                <!--
-                                  The "invisibleIntroduction" is the text used for short preview
-                                  of the email before the user opens it (50 characters max). Sometimes,
-                                  you do not want to show this message depending on your design but this
-                                  text is highly recommended.
-
-                                  You do not have to worry if it is hidden, the next <td> will automatically
-                                  center and apply to the width 100% and also shrink to 50% if the first <td>
-                                  is visible.
-                                -->
-                                <td align="left" valign="middle" id="invisibleIntroduction" class="flexibleContainerBox" style="display:none !important; mso-hide:all;">
-                                  <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:100%;">
-                                    <tr>
-                                      <td align="left" class="textContent">
-                                        <div style="font-family:Helvetica,Arial,sans-serif;font-size:13px;color:#828282;text-align:center;line-height:120%;">
-                                          The introduction of your message preview goes here. Try to make it short.
-                                        </div>
-                                      </td>
-                                    </tr>
-                                  </table>
-                                </td>
-                                <td align="right" valign="middle" class="flexibleContainerBox">
-                                  <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:100%;">
-                                    <tr>
-                                      <td align="left" class="textContent">
-                                        <!-- CONTENT // -->
-                                        <!-- <div style="font-family:Helvetica,Arial,sans-serif;font-size:13px;color:#828282;text-align:center;line-height:120%;">
-                                          If you can't see this message, <a href="#" target="_blank" style="text-decoration:none;border-bottom:1px solid #828282;color:#828282;"><span style="color:#828282;">view&nbsp;it&nbsp;in&nbsp;your&nbsp;browser</span></a>.
-                                        </div> -->
-                                      </td>
-                                    </tr>
-                                  </table>
-                                </td>
-                              </tr>
-                            </table>
-                          </td>
-                        </tr>
-                      </table>
-                      <!-- // FLEXIBLE CONTAINER -->
-                    </td>
-                  </tr>
-                </table>
-                <!-- // CENTERING TABLE -->
-              </td>
-            </tr>
-            <!-- // END -->
 
           </table>
           <!-- // END -->
@@ -420,17 +359,16 @@
                                     <!-- FLEXIBLE CONTAINER // -->
                                     <table border="0" cellpadding="30" cellspacing="0" width="500" class="flexibleContainer">
                                       <tr>
-                                        <td style="" align="center" valign="top" width="500" class="flexibleContainerCell">
+                                        <td style=" padding: 10px 30px 30px 30px; " align="center" valign="top" width="500" class="flexibleContainerCell" >
 
                                           <!-- CONTENT TABLE // -->
                                           <table align="left" border="0" cellpadding="0" cellspacing="0" class="flexibleContainer">
                                             <tr>
                                               <td align="left" valign="top" class="textContent">
                                                 <div style="text-align:left;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;margin-top:10px;color:#5F5F5F;line-height:135%;">
-                                                    El presente documento certifca la inscripciï¿½n correcta en el concurso Desafio Mï¿½vil 2018. Y que la informaciï¿½n consignada en el registro web es vï¿½lida.
+                                                    El presente documento certifica la inscripción correcta en el concurso Desafio Movil 2018. Y que la información consignada en el registro web es valida.                                                    <br>
                                                     <br>
-                                                    <br>
-                                                    Ademï¿½s el proyecto estarï¿½ representado por:
+                                                    Además el proyecto estará representado por:
                                                 </div>
                                               </td>
                                             </tr>
@@ -458,7 +396,7 @@
                                     <!-- FLEXIBLE CONTAINER // -->
                                     <table border="0" cellpadding="30" cellspacing="0" width="500" class="flexibleContainer">
                                       <tr>
-                                        <td style="" valign="top" width="500" class="flexibleContainerCell">
+                                        <td style=" padding: 0px 30px 20px 30px;" valign="top" width="500" class="flexibleContainerCell" >
 
                                           <!-- CONTENT TABLE // -->
                                           <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
@@ -559,10 +497,13 @@
                                                 <table border="0" cellpadding="30" cellspacing="0" width="100%" style="max-width:100%;">
                                                   <tr>
                                                     <td align="left" class="textContent">
-                                                      <h3 style="color:#FFFFFF;line-height:125%;font-family:Helvetica,Arial,sans-serif;font-size:20px;font-weight:normal;margin-top:0;margin-bottom:3px;text-align:left;">
+                                                      <h3 style="color:#b2bec3;line-height:125%;font-family:Helvetica,Arial,sans-serif;font-size:20px;font-weight:normal;margin-top:0;margin-bottom:3px;text-align:left;">
                                                         ____________________</h3>
-                                                      <div style="text-align:center;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;color:#FFFFFF;line-height:135%;">
-                                                        FIRMA DEL REPRESENTANTE</div>
+                                                      <div style="text-align:center;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;color:#b2bec3;line-height:135%;">
+                                                        FIRMA DEL REPRESENTANTE
+                                                        <br>
+                                                        <?php echo strtoupper($nombreapp) ?>
+                                                      </div>
                                                     </td>
                                                   </tr>
                                                 </table>
@@ -571,10 +512,12 @@
                                                 <table class="flexibleContainerBoxNext" border="0" cellpadding="30" cellspacing="0" width="100%" style="max-width:100%;">
                                                   <tr>
                                                     <td align="left" class="textContent">
-                                                      <h3 style="color:#FFFFFF;line-height:125%;font-family:Helvetica,Arial,sans-serif;font-size:20px;font-weight:normal;margin-top:0;margin-bottom:3px;text-align:left;">
+                                                      <h3 style="color:#b2bec3;line-height:125%;font-family:Helvetica,Arial,sans-serif;font-size:20px;font-weight:normal;margin-top:0;margin-bottom:3px;text-align:left;">
                                                         ____________________</h3>
-                                                      <div style="text-align:center;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;color:#FFFFFF;line-height:135%;">
-                                                        JEFE DEL PROYECTO DESAFIO MOVIL 2018</div>
+                                                      <div style="text-align:center;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;color:#b2bec3;line-height:135%;">
+                                                        FIRMA DEL REPRESENTANTE
+                                                        <br>
+                                                        DESAFIO MOVIL 2018</div>
                                                     </td>
                                                   </tr>
                                                 </table>
@@ -604,7 +547,7 @@
                                 <tr>
                                   <td align="center" valign="top">
                                     <!-- FLEXIBLE CONTAINER // -->
-                                    <table border="0" cellpadding="0" cellspacing="0" width="500" class="flexibleContainer">
+                                    <table border="0" cellpadding="0" cellspacing="0" width="550" class="flexibleContainer">
                                       <tr>
                                         <td align="center" valign="top" width="500" class="flexibleContainerCell">
                                           <table border="0" cellpadding="30" cellspacing="0" width="100%">
@@ -615,10 +558,10 @@
                                                 <table border="0" cellpadding="0" cellspacing="0" width="100%">
                                                   <tr>
                                                     <td valign="top" class="textContent">
-                                                      <div style="text-align:center;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;margin-top:3px;color:#5F5F5F;line-height:135%;">
-                                                        Para confirmar el registro de su aplicativo mï¿½vil deberï¿½ imprimirse y presentarse
-                                                        en la Sub Gerencia de Tecnologï¿½ï¿½as de Informaciï¿½n y Comunicaciones de la Municipalidad Provincial de Tacna</div>
-                                                    </td>
+                                                      <div style="text-align:center;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;margin-top:3px;color:#b2bec3;line-height:135%;">
+
+                                                        Para confirmar el registro de su aplicativo movil debera imprimirse y presentarse
+                                                        en la Sub Gerencia de Tecnologí­as de Información y Comunicaciones de la Municipalidad Provincial de Tacna                                                    </td>
                                                   </tr>
                                                 </table>
                                                 <!-- // CONTENT TABLE -->
@@ -651,7 +594,7 @@
             Its width can be set to 100% for a color band
             that spans the width of the page.
           -->
-          <table bgcolor="#E1E1E1" border="0" cellpadding="0" cellspacing="0" width="500" id="emailFooter">
+          <table bgcolor="#E1E1E1" border="0" cellpadding="0" cellspacing="0" width="550" id="emailFooter">
 
             <!-- FOOTER ROW // -->
             <!--
@@ -666,16 +609,16 @@
                   <tr>
                     <td align="center" valign="top">
                       <!-- FLEXIBLE CONTAINER // -->
-                      <table border="0" cellpadding="0" cellspacing="0" width="500" class="flexibleContainer">
+                      <table border="0" cellpadding="0" cellspacing="0" width="550" class="flexibleContainer">
                         <tr>
                           <td align="center" valign="top" width="500" class="flexibleContainerCell">
                             <table border="0" cellpadding="30" cellspacing="0" width="100%">
                               <tr>
                                 <td valign="top" bgcolor="#E1E1E1">
 
-                                  <div style="font-family:Helvetica,Arial,sans-serif;font-size:13px;color:#828282;text-align:center;line-height:120%;">
-                                    <div>ï¿½Copyright DesafioApp <a href="http://munitacna.gob.pe/" target="_blank" style="text-decoration:none;color:#828282;"><span style="color:#828282;">
-                                       Sub Gerencia de Tecnologï¿½ï¿½as de Informaciï¿½n y Comunicaciones</span></a>.</div>
+                                  <div style="font-family:Helvetica,Arial,sans-serif;font-size:13px;color:#b2bec3;text-align:center;line-height:120%;">
+                                    <div>©Copyright DesafioApp <a href="http://munitacna.gob.pe/" style="text-decoration:none;color:#828282" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=es&amp;q=http://munitacna.gob.pe/&amp;source=gmail&amp;ust=1518115381407000&amp;usg=AFQjCNFPm5FliptRtTZZeEAM_WCS7XD5hw"><span style="color: #b2bec3;">
+                                        Sub Gerencia de Tecnologí­as de Información y Comunicaciones</span></a>.</div>
                                   </div>
 
                                 </td>

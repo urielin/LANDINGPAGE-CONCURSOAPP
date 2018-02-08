@@ -182,7 +182,7 @@
 							Its width can be set to 100% for a color band
 							that spans the width of the page.
 						-->
-						<table bgcolor="#E1E1E1" border="0" cellpadding="0" cellspacing="0" width="500" id="emailHeader">
+						<table bgcolor="#E1E1E1" border="0" cellpadding="0" cellspacing="0" width="550" id="emailHeader">
 
 							<!-- HEADER ROW // -->
 							<tr>
@@ -192,7 +192,7 @@
 										<tr>
 											<td align="center" valign="top">
 												<!-- FLEXIBLE CONTAINER // -->
-												<table border="0" cellpadding="10" cellspacing="0" width="500" class="flexibleContainer">
+												<table border="0" cellpadding="10" cellspacing="0" width="550" class="flexibleContainer">
 													<tr>
 														<td valign="top" width="500" class="flexibleContainerCell">
 
@@ -255,7 +255,7 @@
 							Its width can be set to 100% for a color band
 							that spans the width of the page.
 						-->
-						<table bgcolor="#FFFFFF"  border="0" cellpadding="0" cellspacing="0" width="500" id="emailBody">
+						<table bgcolor="#FFFFFF"  border="0" cellpadding="0" cellspacing="0" width="550" id="emailBody">
 
 							<!-- MODULE ROW // -->
 							<!--
@@ -298,7 +298,7 @@
 													Most content tables within can then be
 													given 100% widths.
 												-->
-												<table border="0" cellpadding="0" cellspacing="0" width="500" class="flexibleContainer">
+												<table border="0" cellpadding="0" cellspacing="0" width="550" class="flexibleContainer">
 													<tr>
 														<td align="center" valign="top" width="500" class="flexibleContainerCell">
 
@@ -335,7 +335,7 @@
 										<tr>
 											<td align="center" valign="top">
 												<!-- FLEXIBLE CONTAINER // -->
-												<table border="0" cellpadding="0" cellspacing="0" width="500" class="flexibleContainer">
+												<table border="0" cellpadding="0" cellspacing="0" width="550" class="flexibleContainer">
 													<tr>
 														<td align="center" valign="top" width="500" class="flexibleContainerCell">
 
@@ -427,7 +427,7 @@
 										<tr style="padding-top:0;">
 											<td align="center" valign="top">
 												<!-- FLEXIBLE CONTAINER // -->
-												<table border="0" cellpadding="30" cellspacing="0" width="500" class="flexibleContainer">
+												<table border="0" cellpadding="30" cellspacing="0" width="550" class="flexibleContainer">
 													<tr>
 														<td style="padding-top:0;" align="center" valign="top" width="500" class="flexibleContainerCell">
 
@@ -468,7 +468,7 @@
 							Its width can be set to 100% for a color band
 							that spans the width of the page.
 						-->
-						<table bgcolor="#E1E1E1" border="0" cellpadding="0" cellspacing="0" width="500" id="emailFooter">
+						<table bgcolor="#E1E1E1" border="0" cellpadding="0" cellspacing="0" width="550" id="emailFooter">
 
 							<!-- FOOTER ROW // -->
 							<!--
@@ -483,7 +483,7 @@
 										<tr>
 											<td align="center" valign="top">
 												<!-- FLEXIBLE CONTAINER // -->
-												<table border="0" cellpadding="0" cellspacing="0" width="500" class="flexibleContainer">
+												<table border="0" cellpadding="0" cellspacing="0" width="550" class="flexibleContainer">
 													<tr>
 														<td align="center" valign="top" width="500" class="flexibleContainerCell">
 															<table border="0" cellpadding="30" cellspacing="0" width="100%">

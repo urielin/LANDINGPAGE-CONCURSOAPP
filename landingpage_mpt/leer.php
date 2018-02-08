@@ -266,13 +266,13 @@ require "email_message.php";
         $from = 'desafiomovil2018@munitacna.gob.pe';
         $name = 'Desafiomovil2018';
         //
-        if (smtpmailer($to, $from, $name, $subj, $msg)) {
-          echo 'Yippie, message send via Gmail';
+        if (smtpmailer($to, $from, $name, $subj, $msg, false)) {
+          echo 'Yippie, message send ';
         } else {
-          if (!smtpmailer($to, $from, $name, $subj, $msg, false)) {
+          if (!smtpmailer($to, $from, $name, $subj, $msg )) {
             if (!empty($error)) echo $error;
           } else {
-            echo 'Yep, the message is send (after doing some hard work)';
+            echo 'Yep, the message is send via Gmail';
           }
         }
 /*    }else{

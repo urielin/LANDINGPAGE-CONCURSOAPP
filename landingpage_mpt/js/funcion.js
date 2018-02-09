@@ -159,7 +159,7 @@
                 }else if( $("#dni").val() == ""/* || $("#dni").val() == "Introduzca su dni"*/){
                     $("#dni").focus().after("<span class='error'>Ingrese su dni</span>");
                     return false;
-                }else if($("#dni").val().length < 8 ){
+                }else if($("#dni").val().length != 8 ){
                     $("#dni").focus().after("<span class='error'>Debe ser 8 números para el dni</span>");
                     return false;
 
@@ -227,7 +227,7 @@
                 }else if( $("#dni2").val() == ""){
                     $("#dni2").focus().after("<span class='error'>Ingrese su dni</span>");
                     return false;
-                }else if($("#dni2").val().length < 8 ){
+                }else if($("#dni2").val().length != 8 ){
                     $("#dni2").focus().after("<span class='error'>Debe ser 8 números para el dni</span>");
                     return false;
 
@@ -285,7 +285,7 @@
                 }else if( $("#dni3").val() == ""){
                     $("#dni3").focus().after("<span class='error'>Ingrese su dni</span>");
                     return false;
-                }else if($("#dni3").val().length < 8 ){
+                }else if($("#dni3").val().length != 8 ){
                     $("#dni3").focus().after("<span class='error'>Debe ser 8 números para el dni</span>");
                     return false;
 
@@ -340,7 +340,7 @@
                 }else if( $("#dni4").val() == ""){
                     $("#dni4").focus().after("<span class='error'>Ingrese su dni</span>");
                     return false;
-                }else if($("#dni4").val().length < 8 ){
+                }else if($("#dni4").val().length != 8 ){
                     $("#dni4").focus().after("<span class='error'>Debe ser 8 números para el dni</span>");
                     return false;
 
@@ -395,7 +395,7 @@
                 }else if( $("#dni5").val() == ""){
                     $("#dni5").focus().after("<span class='error'>Ingrese su dni</span>");
                     return false;
-                }else if($("#dni5").val().length < 8 ){
+                }else if($("#dni5").val().length != 8 ){
                     $("#dni5").focus().after("<span class='error'>Debe ser 8 números para el dni</span>");
                     return false;
 

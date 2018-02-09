@@ -149,7 +149,7 @@
                                 </div>
                                 <div class="col-md-12 form-group ">
                                   <label for="dni" class="form-control-label">DNI:</label>
-                                  <input type="text" class="form-control" id="dni" name="dni">
+                                  <input type="number" class="form-control" id="dni" name="dni">
                                 </div>
                                 <div class="col-md-12 form-group ">
                                   <label for="categoria" class="form-control-label">Categoria:</label>
@@ -167,7 +167,7 @@
                                 </div>
                                 <div class="col-md-12 form-group ">
                                   <label for="celular" class="form-control-label">Celular:</label>
-                                  <input type="text" class="form-control" id="celular" name="celular">
+                                  <input type="number" class="form-control" id="celular" name="celular">
                                 </div>
                                 <div class="col-md-12 form-group ">
                                   <label for="email" class="form-control-label">Email:</label>
@@ -200,7 +200,7 @@
                                 </div>
                                 <div class="col-md-12 form-group ">
                                   <label for="dni2" class="form-control-label">DNI:</label>
-                                  <input type="text" class="form-control" id="dni2" name="dni2">
+                                  <input type="number" class="form-control" id="dni2" name="dni2">
                                 </div>
                                 <div class="col-md-12 form-group ">
                                   <label for="categoria2" class="form-control-label">Categoria:</label>
@@ -218,7 +218,7 @@
                                 </div>
                                 <div class="col-md-12 form-group ">
                                   <label for="celular2" class="form-control-label">Celular:</label>
-                                  <input type="text" class="form-control" id="celular2" name="celular2">
+                                  <input type="number" class="form-control" id="celular2" name="celular2">
                                 </div>
                                 <div class="col-md-12 form-group ">
                                   <label for="email2" class="form-control-label">Email:</label>
@@ -247,7 +247,7 @@
                                 </div>
                                 <div class="col-md-12 form-group ">
                                   <label for="dni3" class="form-control-label">DNI:</label>
-                                  <input type="text" class="form-control" id="dni3" name="dni3">
+                                  <input type="number" class="form-control" id="dni3" name="dni3">
                                 </div>
                                 <div class="col-md-12 form-group ">
                                   <label for="categoria3" class="form-control-label">Categoria:</label>
@@ -265,7 +265,7 @@
                                 </div>
                                 <div class="col-md-12 form-group ">
                                   <label for="celular3" class="form-control-label">Celular:</label>
-                                  <input type="text" class="form-control" id="celular3" name="celular3">
+                                  <input type="number" class="form-control" id="celular3" name="celular3">
                                 </div>
                                 <div class="col-md-12 form-group ">
                                   <label for="email3" class="form-control-label">Email:</label>
@@ -291,7 +291,7 @@
                                 </div>
                                 <div class="col-md-12 form-group ">
                                   <label for="dni4" class="form-control-label">DNI:</label>
-                                  <input type="text" class="form-control" id="dni4" name="dni4">
+                                  <input type="number" class="form-control" id="dni4" name="dni4">
                                 </div>
                                 <div class="col-md-12 form-group ">
                                   <label for="categoria4" class="form-control-label">Categoria:</label>
@@ -309,7 +309,7 @@
                                 </div>
                                 <div class="col-md-12 form-group ">
                                   <label for="celular4" class="form-control-label">Celular:</label>
-                                  <input type="text" class="form-control" id="celular4" name="celular4">
+                                  <input type="number" class="form-control" id="celular4" name="celular4">
                                 </div>
                                 <div class="col-md-12 form-group ">
                                   <label for="email4" class="form-control-label">Email:</label>
@@ -335,7 +335,7 @@
                                 </div>
                                 <div class="col-md-12 form-group ">
                                   <label for="dni5" class="form-control-label">DNI:</label>
-                                  <input type="text" class="form-control" id="dni5" name="dni5">
+                                  <input type="number" class="form-control" id="dni5" name="dni5">
                                 </div>
                                 <div class="col-md-12 form-group ">
                                   <label for="categoria5" class="form-control-label">Categoria:</label>
@@ -353,7 +353,7 @@
                                 </div>
                                 <div class="col-md-12 form-group ">
                                   <label for="celular5" class="form-control-label">Celular:</label>
-                                  <input type="text" class="form-control" id="celular5" name="celular5">
+                                  <input type="number" class="form-control" id="celular5" name="celular5">
                                 </div>
                                 <div class="col-md-12 form-group ">
                                   <label for="email5" class="form-control-label">Email:</label>

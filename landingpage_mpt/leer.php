@@ -62,21 +62,6 @@ require "email_message.php";
         $connectionInfo = array( "Database"=>"BDCONCURSOAPP", "UID"=>"udesafiomovil", "PWD"=>"principal*123");
         $conn = sqlsrv_connect( $serverName, $connectionInfo);
 
-        $sql = "
-                insert into
-                    dbo.appmovil
-                      (
-                          titulo, descripcion
-                      )
-                values
-                      (
-                          '$titulo','$descripcion'
-                      )
-        ";
-
-        $appmovil=sqlsrv_prepare($conn,$sql);
-        sqlsrv_execute($appmovil);
-
         $id = "
                 select
                   top 1 grupo_id
@@ -87,12 +72,28 @@ require "email_message.php";
         $obtener_id=sqlsrv_query($conn,$id);
         $grupo_id = sqlsrv_fetch_array($obtener_id, SQLSRV_FETCH_NUMERIC);
         $grupo_id=$grupo_id[0];
+        $grupo_id=$grupo_id+1;
+
+        $sql = "
+                insert into
+                    dbo.appmovil
+                      (
+                          grupo_id, titulo, descripcion
+                      )
+                values
+                      (
+                          '$grupo_id','$titulo','$descripcion'
+                      )
+        ";
+
+        $appmovil=sqlsrv_prepare($conn,$sql);
+        sqlsrv_execute($appmovil);
 
         if ($nombre5!='') {
 
           $sql5 = "
                   insert into
-                      dbo.infopersonal
+                      dbo.participante
                         (
                             grupo_id, nombre, apellido, dni, ciudad, celular, email, categoria
                         )
@@ -105,13 +106,13 @@ require "email_message.php";
                         )
           ";
 
-          $infopersonal5=sqlsrv_prepare($conn,$sql5);
-          sqlsrv_execute($infopersonal5);
+          $participante5=sqlsrv_prepare($conn,$sql5);
+          sqlsrv_execute($participante5);
         }
         else if($nombre4!='') {
           $sql4 = "
                   insert into
-                      dbo.infopersonal
+                      dbo.participante
                         (
                             grupo_id, nombre, apellido, dni, ciudad, celular, email, categoria
                         )
@@ -121,13 +122,13 @@ require "email_message.php";
                         )
           ";
 
-          $infopersonal4=sqlsrv_prepare($conn,$sql4);
-          sqlsrv_execute($infopersonal4);
+          $participante4=sqlsrv_prepare($conn,$sql4);
+          sqlsrv_execute($participante4);
         }
 
         $sql3 = "
                 insert into
-                    dbo.infopersonal
+                    dbo.participante
                       (
                           grupo_id, nombre, apellido, dni, ciudad, celular, email, categoria
                       )
@@ -143,9 +144,9 @@ require "email_message.php";
                       )
         ";
 
-        $infopersonal3=sqlsrv_prepare($conn,$sql3);
-        sqlsrv_execute($infopersonal3);
-/*        if(sqlsrv_execute($infopersonal3)){
+        $participante3=sqlsrv_prepare($conn,$sql3);
+        sqlsrv_execute($participante3);
+/*        if(sqlsrv_execute($participante3)){
               print "<script type='text/javascript'>alert('registrado correctamente');</script>";
         }else{
               print "<script type='text/javascript'>alert('No fue registrado correctamente, vuelve a ingresar');</script>";
@@ -158,20 +159,6 @@ require "email_message.php";
         $conn = mssql_connect($serverName, 'udesafiomovil', 'principal*123');
         $conndb = mssql_select_db('BDCONCURSOAPP', $conn);
 
-                $sql = "
-                insert into
-                    dbo.appmovil
-                      (
-                          titulo, descripcion
-                      )
-                values
-                      (
-                          '$titulo','$descripcion'
-                      )
-                ";
-
-                $appmovil=mssql_query($sql);
-
                 $id = mssql_query('select
                                   top 1 grupo_id
                                 from
@@ -179,12 +166,27 @@ require "email_message.php";
 
                 $grupo_id = mssql_fetch_assoc($id);
                 $grupo_id=$grupo_id['grupo_id'];
+                $grupo_id=$grupo_id+1;
+
+                $sql = "
+                insert into
+                    dbo.appmovil
+                      (
+                          grupo_id, titulo, descripcion
+                      )
+                values
+                      (
+                          '$grupo_id','$titulo','$descripcion'
+                      )
+                ";
+
+                $appmovil=mssql_query($sql);
 
                 if ($nombre5!='') {
 
                   $sql5 = "
                           insert into
-                              dbo.infopersonal
+                              dbo.participante
                                 (
                                     grupo_id, nombre, apellido, dni, ciudad, celular, email, categoria
                                 )
@@ -197,13 +199,13 @@ require "email_message.php";
                                 )
                   ";
 
-                  $infopersonal5=mssql_query($sql5);
+                  $participante5=mssql_query($sql5);
 
                 }
                 else if($nombre4!='') {
                   $sql4 = "
                           insert into
-                              dbo.infopersonal
+                              dbo.participante
                                 (
                                     grupo_id, nombre, apellido, dni, ciudad, celular, email, categoria
                                 )
@@ -213,13 +215,13 @@ require "email_message.php";
                                 )
                   ";
 
-                  $infopersonal4=mssql_query($sql4);
+                  $participante4=mssql_query($sql4);
 
                 }
 
                 $sql3 = "
                         insert into
-                            dbo.infopersonal
+                            dbo.participante
                               (
                                   grupo_id, nombre, apellido, dni, ciudad, celular, email, categoria
                               )
@@ -236,9 +238,9 @@ require "email_message.php";
                 ";
 
 
-                $infopersonal3=mssql_query($sql3);
+                $participante3=mssql_query($sql3);
 
-                /*if(sqlsrv_execute($infopersonal3)){
+                /*if(sqlsrv_execute($participante3)){
                       print "<script type='text/javascript'>alert('registrado correctamente');</script>";
                 }else{
                       print "<script type='text/javascript'>alert('No fue registrado correctamente, vuelve a ingresar');</script>";

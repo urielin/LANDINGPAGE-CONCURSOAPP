@@ -5,6 +5,8 @@
      $user = $_POST['usuario'];
      $password = $_POST['clave'];
 
+     $_SESSION['usuario'] = $user;  
+
      $nombreServerActual = $_SERVER['SERVER_NAME'];  
 
      if ($nombreServerActual=='localhost') {
@@ -25,17 +27,10 @@
         $comparar=sqlsrv_query($conn,$verificar);                 
         $select = sqlsrv_fetch_array($comparar, SQLSRV_FETCH_NUMERIC);            
         $usuario=$select[1]; 
-        $clave=$select[2]; 
+        $clave=$select[2];               
 
-        if ($usuario==$user && $clave==$password) {
-
-          $usuario_sesion=$user;
-          $clave_sesion=$password;
-
-          echo '<script>location.href = "mostrar.php"</script>';
-
-          $_SESSION['usuario'] = $usuario_sesion;
-          $_SESSION['clave'] = $clave_sesion;
+        if ($usuario==$user && $clave==$password) {         
+          echo '<script>location.href = "mostrar"</script>';
         }
         else{
           echo '<span>Clave y/o Usuario incorrecto.</span>';
@@ -55,7 +50,6 @@
                   from 
                     dbo.usuariosapp 
 
-
                                   ');
 
 /*                  where
@@ -71,24 +65,16 @@
 
                 $comparar = mssql_fetch_assoc($verificar);
                 $usuario=$comparar['usuario'];
-                $clave=$comparar['clave'];
+                $clave=$comparar['clave'];                
 
-                if ($usuario==$user && $clave==$password) {
-
-                  $usuario_sesion=$user;
-                  $clave_sesion=$password;
-
-                  echo '<script>location.href = "mostrar.php"</script>';
-
-                  $_SESSION['usuario'] = $usuario_sesion;
-                  $_SESSION['clave'] = $clave_sesion;
+                if ($usuario==$user && $clave==$password) {                 
+                  echo '<script>location.href = "mostrar"</script>';
                 }
                 else{
                   echo '<span>Clave y/o Usuario incorrecto.</span>';
                 }
 
                 mssql_close();
-
      }
     	
         

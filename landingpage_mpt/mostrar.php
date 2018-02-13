@@ -2,6 +2,7 @@
 
 session_start();
 
+
 if (isset($_SESSION['usuario'])) {?>
 
 <?php 
@@ -379,6 +380,6 @@ if ($nombreServerActual=='localhost') {
 
 <?php
 }else{
-  print "<meta http-equiv=\"refresh\" content=\"0;URL='login.php'\">";       
+  print "<meta http-equiv=\"refresh\" content=\"0;URL='login'\">";       
 }
 ?>
